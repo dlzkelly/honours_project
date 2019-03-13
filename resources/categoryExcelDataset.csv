@@ -1,0 +1,626 @@
+﻿CategoryID,CategoryLevel,CategoryName,CategoryParentID,CategoryNamePath,CategoryIDPath,LeafCategory
+20081,1,Antiques,-1,Antiques,20081,FALSE
+550,1,Art,-1,Art,550,FALSE
+2984,1,Baby,-1,Baby,2984,FALSE
+267,1,"Books, Comics & Magazines",-1,"Books, Comics & Magazines",267,FALSE
+12576,1,"Business, Office & Industrial",-1,"Business, Office & Industrial",12576,FALSE
+625,1,Cameras & Photography,-1,Cameras & Photography,625,FALSE
+9800,1,"Cars, Motorcycles & Vehicles",-1,"Cars, Motorcycles & Vehicles",9800,FALSE
+11450,1,"Clothes, Shoes & Accessories",-1,"Clothes, Shoes & Accessories",11450,FALSE
+11116,1,Coins,-1,Coins,11116,FALSE
+1,1,Collectables,-1,Collectables,1,FALSE
+58058,1,Computers/Tablets & Networking,-1,Computers/Tablets & Networking,58058,FALSE
+14339,1,Crafts,-1,Crafts,14339,FALSE
+237,1,Dolls & Bears,-1,Dolls & Bears,237,FALSE
+11232,1,"DVDs, Films & TV",-1,"DVDs, Films & TV",11232,FALSE
+1305,1,Events Tickets,-1,Events Tickets,1305,FALSE
+159912,1,Garden & Patio,-1,Garden & Patio,159912,FALSE
+26395,1,Health & Beauty,-1,Health & Beauty,26395,FALSE
+3252,1,Holidays & Travel,-1,Holidays & Travel,3252,FALSE
+11700,1,"Home, Furniture & DIY",-1,"Home, Furniture & DIY",11700,FALSE
+281,1,Jewellery & Watches,-1,Jewellery & Watches,281,FALSE
+15032,1,Mobile Phones & Communication,-1,Mobile Phones & Communication,15032,FALSE
+11233,1,Music,-1,Music,11233,FALSE
+619,1,Musical Instruments,-1,Musical Instruments,619,FALSE
+1281,1,Pet Supplies,-1,Pet Supplies,1281,FALSE
+870,1,"Pottery, Porcelain & Glass",-1,"Pottery, Porcelain & Glass",870,FALSE
+10542,1,Property,-1,Property,10542,FALSE
+293,1,Sound & Vision,-1,Sound & Vision,293,FALSE
+888,1,Sporting Goods,-1,Sporting Goods,888,FALSE
+64482,1,Sports Memorabilia,-1,Sports Memorabilia,64482,FALSE
+260,1,Stamps,-1,Stamps,260,FALSE
+220,1,Toys & Games,-1,Toys & Games,220,FALSE
+131090,1,Vehicle Parts & Accessories,-1,Vehicle Parts & Accessories,131090,FALSE
+1249,1,Video Games & Consoles,-1,Video Games & Consoles,1249,FALSE
+40005,1,Wholesale & Job Lots,-1,Wholesale & Job Lots,40005,FALSE
+99,1,Everything Else,-1,Everything Else,99,FALSE
+183062,2,3D Printers & Supplies,58058,Computers/Tablets & Networking:3D Printers & Supplies,58058:183062,FALSE
+171485,2,Tablets & eBook Readers,58058,Computers/Tablets & Networking:Tablets & eBook Readers,58058:171485,TRUE
+176970,2,Tablet & eBook Reader Accs,58058,Computers/Tablets & Networking:Tablet & eBook Reader Accs,58058:176970,FALSE
+180235,2,Tablet & eBook Reader Parts,58058,Computers/Tablets & Networking:Tablet & eBook Reader Parts,58058:180235,TRUE
+175672,2,Laptops & Netbooks,58058,Computers/Tablets & Networking:Laptops & Netbooks,58058:175672,FALSE
+171957,2,Desktops & All-in-Ones,58058,Computers/Tablets & Networking:Desktops & All-in-Ones,58058:171957,FALSE
+31530,2,Laptop & Desktop Accessories,58058,Computers/Tablets & Networking:Laptop & Desktop Accessories,58058:31530,FALSE
+182094,2,Computer Cables & Connectors,58058,Computers/Tablets & Networking:Computer Cables & Connectors,58058:182094,FALSE
+175673,2,Computer Components & Parts,58058,Computers/Tablets & Networking:Computer Components & Parts,58058:175673,FALSE
+165,2,"Drives, Storage & Blank Media",58058,"Computers/Tablets & Networking:Drives, Storage & Blank Media",58058:165,FALSE
+175698,2,"Enterprise Networking, Servers",58058,"Computers/Tablets & Networking:Enterprise Networking, Servers",58058:175698,FALSE
+11176,2,Home Networking & Connectivity,58058,Computers/Tablets & Networking:Home Networking & Connectivity,58058:11176,FALSE
+3676,2,"Keyboards, Mice & Pointers",58058,"Computers/Tablets & Networking:Keyboards, Mice & Pointers",58058:3676,FALSE
+162497,2,"Monitors, Projectors & Accs",58058,"Computers/Tablets & Networking:Monitors, Projectors & Accs",58058:162497,FALSE
+86722,2,"Power Protection, Distribution",58058,"Computers/Tablets & Networking:Power Protection, Distribution",58058:86722,FALSE
+171961,2,"Printers, Scanners & Supplies",58058,"Computers/Tablets & Networking:Printers, Scanners & Supplies",58058:171961,FALSE
+18793,2,Software,58058,Computers/Tablets & Networking:Software,58058:18793,FALSE
+3516,2,Manuals & Resources,58058,Computers/Tablets & Networking:Manuals & Resources,58058:3516,TRUE
+11189,2,Vintage Computing,58058,Computers/Tablets & Networking:Vintage Computing,58058:11189,FALSE
+162,2,Other Computers & Networking,58058,Computers/Tablets & Networking:Other Computers & Networking,58058:162,TRUE
+28009,2,Art Posters,550,Art:Art Posters,550:28009,TRUE
+552,2,Art Drawings,550,Art:Art Drawings,550:552,TRUE
+2211,2,Art Photographs,550,Art:Art Photographs,550:2211,TRUE
+360,2,Art Prints,550,Art:Art Prints,550:360,TRUE
+553,2,Art Sculptures,550,Art:Art Sculptures,550:553,TRUE
+357,2,Folk Art & Indigenous Art,550,Art:Folk Art & Indigenous Art,550:357,TRUE
+554,2,Mixed Media Art & Collage Art,550,Art:Mixed Media Art & Collage Art,550:554,TRUE
+551,2,Paintings,550,Art:Paintings,550:551,TRUE
+156196,2,Textile Art & Fiber Art,550,Art:Textile Art & Fiber Art,550:156196,TRUE
+20158,2,Other Art,550,Art:Other Art,550:20158,TRUE
+20394,2,Baby Bathing/Grooming,2984,Baby:Baby Bathing/Grooming,2984:20394,FALSE
+53676,2,Baby Books,2984,Baby:Baby Books,2984:53676,FALSE
+100982,2,Baby Carriers/Backpacks,2984,Baby:Baby Carriers/Backpacks,2984:100982,TRUE
+45455,2,Baby Changing & Nappies,2984,Baby:Baby Changing & Nappies,2984:45455,FALSE
+20400,2,Baby Feeding,2984,Baby:Baby Feeding,2984:20400,FALSE
+66692,2,Car Seats & Accessories,2984,Baby:Car Seats & Accessories,2984:66692,FALSE
+100978,2,Christening & Gifts,2984,Baby:Christening & Gifts,2984:100978,FALSE
+3082,2,"Clothes, Shoes & Accessories",2984,"Baby:Clothes, Shoes & Accessories",2984:3082,FALSE
+87167,2,Maternity/Pregnancy,2984,Baby:Maternity/Pregnancy,2984:87167,FALSE
+20416,2,Nursery Bedding,2984,Baby:Nursery Bedding,2984:20416,FALSE
+66697,2,Nursery Decoration & Furniture,2984,Baby:Nursery Decoration & Furniture,2984:66697,FALSE
+37631,2,Potty Training,2984,Baby:Potty Training,2984:37631,TRUE
+66698,2,"Pushchairs, Prams & Accs.",2984,"Baby:Pushchairs, Prams & Accs.",2984:66698,FALSE
+20433,2,Safety,2984,Baby:Safety,2984:20433,FALSE
+19068,2,Toys & Activities,2984,Baby:Toys & Activities,2984:19068,FALSE
+134282,2,Walkers,2984,Baby:Walkers,2984:134282,TRUE
+1261,2,Other Baby,2984,Baby:Other Baby,2984:1261,TRUE
+121902,2,Aircraft & Aviation,9800,"Cars, Motorcycles & Vehicles:Aircraft & Aviation",9800:121902,TRUE
+1293,2,Boats & Watercraft,9800,"Cars, Motorcycles & Vehicles:Boats & Watercraft",9800:1293,FALSE
+121904,2,"Campers, Caravans & Motorhomes",9800,"Cars, Motorcycles & Vehicles:Campers, Caravans & Motorhomes",9800:121904,FALSE
+9801,2,Cars,9800,"Cars, Motorcycles & Vehicles:Cars",9800:9801,FALSE
+168693,2,Cars for Salvage,9800,"Cars, Motorcycles & Vehicles:Cars for Salvage",9800:168693,TRUE
+29751,2,Classic Cars,9800,"Cars, Motorcycles & Vehicles:Classic Cars",9800:29751,FALSE
+63732,2,Commercial Vehicles,9800,"Cars, Motorcycles & Vehicles:Commercial Vehicles",9800:63732,FALSE
+422,2,Motorcycles & Scooters,9800,"Cars, Motorcycles & Vehicles:Motorcycles & Scooters",9800:422,FALSE
+35576,2,Motorcycles for Salvage,9800,"Cars, Motorcycles & Vehicles:Motorcycles for Salvage",9800:35576,TRUE
+36626,2,Disabled Vehicles,9800,"Cars, Motorcycles & Vehicles:Disabled Vehicles",9800:36626,TRUE
+122305,2,Emergency Vehicles,9800,"Cars, Motorcycles & Vehicles:Emergency Vehicles",9800:122305,TRUE
+122306,2,Go-Karts,9800,"Cars, Motorcycles & Vehicles:Go-Karts",9800:122306,TRUE
+181476,2,Golf Buggies,9800,"Cars, Motorcycles & Vehicles:Golf Buggies",9800:181476,TRUE
+122307,2,Military Vehicles,9800,"Cars, Motorcycles & Vehicles:Military Vehicles",9800:122307,TRUE
+9883,2,Other Vehicles,9800,"Cars, Motorcycles & Vehicles:Other Vehicles",9800:9883,TRUE
+112425,2,Dancewear & Accessories,11450,"Clothes, Shoes & Accessories:Dancewear & Accessories",11450:112425,FALSE
+179310,2,Erotic Clothing,11450,"Clothes, Shoes & Accessories:Erotic Clothing",11450:179310,FALSE
+163147,2,Fancy Dress & Period Costume,11450,"Clothes, Shoes & Accessories:Fancy Dress & Period Costume",11450:163147,FALSE
+171146,2,"Kids' Clothes, Shoes & Accs.",11450,"Clothes, Shoes & Accessories:Kids' Clothes, Shoes & Accs.",11450:171146,FALSE
+4250,2,Men's Accessories,11450,"Clothes, Shoes & Accessories:Men's Accessories",11450:4250,FALSE
+1059,2,Men's Clothing,11450,"Clothes, Shoes & Accessories:Men's Clothing",11450:1059,FALSE
+93427,2,Men's Shoes,11450,"Clothes, Shoes & Accessories:Men's Shoes",11450:93427,FALSE
+175759,2,Vintage Clothing & Accessories,11450,"Clothes, Shoes & Accessories:Vintage Clothing & Accessories",11450:175759,FALSE
+3259,2,Wedding & Formal Occasion,11450,"Clothes, Shoes & Accessories:Wedding & Formal Occasion",11450:3259,FALSE
+4251,2,Women's Accessories,11450,"Clothes, Shoes & Accessories:Women's Accessories",11450:4251,FALSE
+169291,2,Women's Handbags,11450,"Clothes, Shoes & Accessories:Women's Handbags",11450:169291,TRUE
+15724,2,Women's Clothing,11450,"Clothes, Shoes & Accessories:Women's Clothing",11450:15724,FALSE
+3034,2,Women's Shoes,11450,"Clothes, Shoes & Accessories:Women's Shoes",11450:3034,FALSE
+155240,2,World & Traditional Clothing,11450,"Clothes, Shoes & Accessories:World & Traditional Clothing",11450:155240,FALSE
+312,2,Other Clothes,11450,"Clothes, Shoes & Accessories:Other Clothes",11450:312,TRUE
+58507,2,Banknotes,11116,Coins:Banknotes,11116:58507,FALSE
+39482,2,Bullion/Bars,11116,Coins:Bullion/Bars,11116:39482,FALSE
+58520,2,Coins,11116,Coins:Coins,11116:58520,FALSE
+72378,2,Historical Medals/Medallions,11116,Coins:Historical Medals/Medallions,11116:72378,FALSE
+72381,2,Share Certificates/Bonds,11116,Coins:Share Certificates/Bonds,11116:72381,FALSE
+58534,2,Tokens,11116,Coins:Tokens,11116:58534,FALSE
+179197,2,Virtual Currency,11116,Coins:Virtual Currency,11116:179197,FALSE
+109471,2,"Adhesives, Sealants & Tapes",12576,"Business, Office & Industrial:Adhesives, Sealants & Tapes",12576:109471,FALSE
+11748,2,Agriculture/Farming,12576,"Business, Office & Industrial:Agriculture/Farming",12576:11748,FALSE
+42892,2,"Automation, Motors & Drives",12576,"Business, Office & Industrial:Automation, Motors & Drives",12576:42892,FALSE
+41498,2,Building Materials & Supplies,12576,"Business, Office & Industrial:Building Materials & Supplies",12576:41498,FALSE
+11759,2,Businesses For Sale,12576,"Business, Office & Industrial:Businesses For Sale",12576:11759,FALSE
+46534,2,Cleaning & Janitorial Supplies,12576,"Business, Office & Industrial:Cleaning & Janitorial Supplies",12576:46534,FALSE
+92074,2,Electrical & Test Equipment,12576,"Business, Office & Industrial:Electrical & Test Equipment",12576:92074,FALSE
+148462,2,Containers & Pre-Fab Buildings,12576,"Business, Office & Industrial:Containers & Pre-Fab Buildings",12576:148462,FALSE
+11897,2,Facility Maintenance & Safety,12576,"Business, Office & Industrial:Facility Maintenance & Safety",12576:11897,FALSE
+183900,2,Fasteners & Hardware,12576,"Business, Office & Industrial:Fasteners & Hardware",12576:183900,FALSE
+46576,2,Hand Tools,12576,"Business, Office & Industrial:Hand Tools",12576:46576,FALSE
+42909,2,HVAC,12576,"Business, Office & Industrial:HVAC",12576:42909,FALSE
+183978,2,"Hydraulics, Pneumatics & Pumps",12576,"Business, Office & Industrial:Hydraulics, Pneumatics & Pumps",12576:183978,FALSE
+64808,2,Industrial Tools,12576,"Business, Office & Industrial:Industrial Tools",12576:64808,FALSE
+147849,2,Manufacturing & Woodworking,12576,"Business, Office & Industrial:Manufacturing & Woodworking",12576:147849,FALSE
+26221,2,Material Handling,12576,"Business, Office & Industrial:Material Handling",12576:26221,FALSE
+11815,2,Medical/Lab Equipment,12576,"Business, Office & Industrial:Medical/Lab Equipment",12576:11815,FALSE
+11804,2,Metalworking/Milling/Welding,12576,"Business, Office & Industrial:Metalworking/Milling/Welding",12576:11804,FALSE
+25298,2,Office Equipment & Supplies,12576,"Business, Office & Industrial:Office Equipment & Supplies",12576:25298,FALSE
+61573,2,Power Tools,12576,"Business, Office & Industrial:Power Tools",12576:61573,FALSE
+26238,2,Printing & Graphic Arts,12576,"Business, Office & Industrial:Printing & Graphic Arts",12576:26238,FALSE
+11874,2,Restaurant & Catering,12576,"Business, Office & Industrial:Restaurant & Catering",12576:11874,FALSE
+11890,2,Retail & Shop Fitting,12576,"Business, Office & Industrial:Retail & Shop Fitting",12576:11890,FALSE
+34165,2,Telephone & Answering Systems,12576,"Business, Office & Industrial:Telephone & Answering Systems",12576:34165,TRUE
+3319,2,Video Broadcasting & Recording,12576,"Business, Office & Industrial:Video Broadcasting & Recording",12576:3319,TRUE
+192,2,Web Domains/ Email/ Software,12576,"Business, Office & Industrial:Web Domains/ Email/ Software",12576:192,FALSE
+26261,2,Other Business & Industrial,12576,"Business, Office & Industrial:Other Business & Industrial",12576:26261,TRUE
+11724,2,Camcorders,625,Cameras & Photography:Camcorders,625:11724,TRUE
+179697,2,Camera Drones,625,Cameras & Photography:Camera Drones,625:179697,TRUE
+182969,2,Camera Drone Parts & Accs,625,Cameras & Photography:Camera Drone Parts & Accs,625:182969,TRUE
+31388,2,Digital Cameras,625,Cameras & Photography:Digital Cameras,625:31388,TRUE
+15200,2,Camera & Photo Accessories,625,Cameras & Photography:Camera & Photo Accessories,625:15200,FALSE
+69323,2,Film Photography,625,Cameras & Photography:Film Photography,625:69323,FALSE
+64353,2,Flashes & Accessories,625,Cameras & Photography:Flashes & Accessories,625:64353,FALSE
+78997,2,Lenses & Filters,625,Cameras & Photography:Lenses & Filters,625:78997,FALSE
+30090,2,Tripods & Supports,625,Cameras & Photography:Tripods & Supports,625:30090,FALSE
+30078,2,Lighting & Studio,625,Cameras & Photography:Lighting & Studio,625:30078,FALSE
+150044,2,Digital Photo Frames,625,Cameras & Photography:Digital Photo Frames,625:150044,TRUE
+4684,2,Manuals & Guides,625,Cameras & Photography:Manuals & Guides,625:4684,TRUE
+182074,2,Replacement Parts & Tools,625,Cameras & Photography:Replacement Parts & Tools,625:182074,FALSE
+28179,2,Telescopes & Binoculars,625,Cameras & Photography:Telescopes & Binoculars,625:28179,FALSE
+3326,2,Vintage Photography,625,Cameras & Photography:Vintage Photography,625:3326,FALSE
+27432,2,Other Photography,625,Cameras & Photography:Other Photography,625:27432,TRUE
+45110,2,Accessories,267,"Books, Comics & Magazines:Accessories",267:45110,FALSE
+29223,2,Antiquarian & Collectable,267,"Books, Comics & Magazines:Antiquarian & Collectable",267:29223,TRUE
+29792,2,Audio Books,267,"Books, Comics & Magazines:Audio Books",267:29792,TRUE
+45673,2,Calendars,267,"Books, Comics & Magazines:Calendars",267:45673,TRUE
+182882,2,Children's & Young Adults,267,"Books, Comics & Magazines:Children's & Young Adults",267:182882,FALSE
+2228,2,Textbooks & Education,267,"Books, Comics & Magazines:Textbooks & Education",267:2228,FALSE
+11104,2,Food & Drink,267,"Books, Comics & Magazines:Food & Drink",267:11104,TRUE
+171228,2,Fiction,267,"Books, Comics & Magazines:Fiction",267:171228,FALSE
+171243,2,Non-Fiction,267,"Books, Comics & Magazines:Non-Fiction",267:171243,FALSE
+63,2,Comics,267,"Books, Comics & Magazines:Comics",267:63,FALSE
+280,2,Magazines,267,"Books, Comics & Magazines:Magazines",267:280,FALSE
+29399,2,Collections & Lots,267,"Books, Comics & Magazines:Collections & Lots",267:29399,FALSE
+268,2,"Other Books, Comics, Magazines",267,"Books, Comics & Magazines:Other Books, Comics, Magazines",267:268,TRUE
+13851,2,Antique Clocks,20081,Antiques:Antique Clocks,20081:13851,FALSE
+20091,2,Antique Furniture,20081,Antiques:Antique Furniture,20081:20091,FALSE
+37903,2,Antiquities,20081,Antiques:Antiquities,20081:37903,FALSE
+4707,2,Architectural Antiques,20081,Antiques:Architectural Antiques,20081:4707,FALSE
+20082,2,Asian/Oriental Antiques,20081,Antiques:Asian/Oriental Antiques,20081:20082,FALSE
+37978,2,Carpets & Rugs,20081,Antiques:Carpets & Rugs,20081:37978,TRUE
+1208,2,Decorative Arts,20081,Antiques:Decorative Arts,20081:1208,TRUE
+2207,2,Ethnographic Antiques,20081,Antiques:Ethnographic Antiques,20081:2207,FALSE
+181677,2,Fabric/Textiles,20081,Antiques:Fabric/Textiles,20081:181677,FALSE
+22422,2,Incunabula,20081,Antiques:Incunabula,20081:22422,TRUE
+23048,2,Manuscripts,20081,Antiques:Manuscripts,20081:23048,TRUE
+37958,2,"Maps, Atlases & Globes",20081,"Antiques:Maps, Atlases & Globes",20081:37958,FALSE
+66638,2,Marine/Maritime,20081,Antiques:Marine/Maritime,20081:66638,TRUE
+1211,2,Metalware,20081,Antiques:Metalware,20081:1211,FALSE
+181726,2,Musical Instruments,20081,Antiques:Musical Instruments,20081:181726,FALSE
+20094,2,Science/Medicine,20081,Antiques:Science/Medicine,20081:20094,FALSE
+20096,2,Silver,20081,Antiques:Silver,20081:20096,FALSE
+37941,2,Woodenware,20081,Antiques:Woodenware,20081:37941,FALSE
+100927,2,Periods/Styles,20081,Antiques:Periods/Styles,20081:100927,FALSE
+22608,2,Reproduction Antiques,20081,Antiques:Reproduction Antiques,20081:22608,TRUE
+12,2,Other Antiques,20081,Antiques:Other Antiques,20081:12,TRUE
+34,2,Advertising Collectables,1,Collectables:Advertising Collectables,01:34,FALSE
+1335,2,Animal Collectables,1,Collectables:Animal Collectables,0.96875,FALSE
+13658,2,Animation Collectables,1,Collectables:Animation Collectables,1:13658,FALSE
+14429,2,Autographs,1,Collectables:Autographs,1:14429,FALSE
+32615,2,Badges & Patches,1,Collectables:Badges & Patches,1:32615,FALSE
+1401,2,"Blade Accs, Armours & Shields",1,"Collectables:Blade Accs, Armours & Shields",1.014583333,FALSE
+562,2,Breweriana,1,Collectables:Breweriana,0.431944444,FALSE
+898,2,Casino Collectables,1,Collectables:Casino Collectables,0.665277778,FALSE
+29797,2,Collectable Bottles & Pots,1,Collectables:Collectable Bottles & Pots,1:29797,FALSE
+397,2,Collectable Clocks,1,Collectables:Collectable Clocks,0.317361111,TRUE
+2536,2,Collectible Card Games,1,Collectables:Collectible Card Games,1.802777778,FALSE
+13777,2,Decorative Ornaments & Plates,1,Collectables:Decorative Ornaments & Plates,1:13777,FALSE
+137,2,Disneyana,1,Collectables:Disneyana,0.136805556,FALSE
+3913,2,Ethnographic Collectables,1,Collectables:Ethnographic Collectables,2.759027778,FALSE
+10860,2,"Fantasy, Myth & Magic",1,"Collectables:Fantasy, Myth & Magic",1:10860,FALSE
+13881,2,Flags,1,Collectables:Flags,1:13881,FALSE
+13905,2,Household Collectables,1,Collectables:Household Collectables,1:13905,FALSE
+13720,2,Jukeboxes,1,Collectables:Jukeboxes,1:13720,FALSE
+3628,2,Keyrings,1,Collectables:Keyrings,2.561111111,TRUE
+81,2,Kitchenalia,1,Collectables:Kitchenalia,0.097916667,FALSE
+50188,2,Masonic,1,Collectables:Masonic,1:50188,FALSE
+13877,2,Memorabilia,1,Collectables:Memorabilia,1:13877,FALSE
+1430,2,Metalware,1,Collectables:Metalware,1.034722222,FALSE
+13956,2,Militaria,1,Collectables:Militaria,1:13956,FALSE
+180250,2,Model Railways & Trains,1,Collectables:Model Railways & Trains,1:180250,FALSE
+66503,2,Moneyboxes & Piggy Banks,1,Collectables:Moneyboxes & Piggy Banks,1:66503,FALSE
+182982,2,Non-Sport Trading Cards,1,Collectables:Non-Sport Trading Cards,1:182982,FALSE
+124,2,Paper & Ephemera,1,Collectables:Paper & Ephemera,0.127777778,FALSE
+966,2,Pens & Writing Equipment,1,Collectables:Pens & Writing Equipment,0.7125,FALSE
+60811,2,Phone Cards,1,Collectables:Phone Cards,1:60811,FALSE
+14277,2,Photographic Images,1,Collectables:Photographic Images,1:14277,FALSE
+914,2,Postcards,1,Collectables:Postcards,0.676388889,FALSE
+29832,2,"Radio, Television & Telephony",1,"Collectables:Radio, Television & Telephony",1:29832,FALSE
+1446,2,Religion & Spirituality,1,Collectables:Religion & Spirituality,1.045833333,FALSE
+3213,2,"Rocks, Fossils & Minerals",1,"Collectables:Rocks, Fossils & Minerals",2.272916667,FALSE
+39630,2,Royalty Collectables,1,Collectables:Royalty Collectables,1:39630,FALSE
+152,2,Science Fiction Collectables,1,Collectables:Science Fiction Collectables,0.147222222,FALSE
+412,2,Scientific Collectables,1,Collectables:Scientific Collectables,0.327777778,FALSE
+113,2,"Sewing, Fabric & Textiles",1,"Collectables:Sewing, Fabric & Textiles",0.120138889,FALSE
+2362,2,"Theatre, Opera & Ballet",1,"Collectables:Theatre, Opera & Ballet",1.681944444,FALSE
+593,2,Tobacciana & Smoking Supplies,1,Collectables:Tobacciana & Smoking Supplies,0.453472222,FALSE
+13849,2,Tools & Collectable Hardware,1,Collectables:Tools & Collectable Hardware,1:13849,FALSE
+79973,2,Trade Cards,1,Collectables:Trade Cards,1:79973,FALSE
+417,2,Transportation Collectables,1,Collectables:Transportation Collectables,0.33125,FALSE
+597,2,"Vanity, Perfume & Grooming",1,"Collectables:Vanity, Perfume & Grooming",0.45625,FALSE
+69851,2,Vintage & Retro Collectables,1,Collectables:Vintage & Retro Collectables,1:69851,FALSE
+1466,2,Weird Stuff,1,Collectables:Weird Stuff,1.059722222,FALSE
+98795,2,"Storage, Displays & Accs",1,"Collectables:Storage, Displays & Accs",1:98795,TRUE
+159,2,Other Collectable Items,1,Collectables:Other Collectable Items,0.152083333,TRUE
+170593,2,Cinema Tickets,1305,Events Tickets:Cinema Tickets,1305:170593,TRUE
+170589,2,Comedy Tickets,1305,Events Tickets:Comedy Tickets,1305:170589,TRUE
+34814,2,Concert Tickets,1305,Events Tickets:Concert Tickets,1305:34814,TRUE
+170591,2,Experiences,1305,Events Tickets:Experiences,1305:170591,TRUE
+170587,2,Festival Tickets,1305,Events Tickets:Festival Tickets,1305:170587,TRUE
+170592,2,Museum Tickets,1305,Events Tickets:Museum Tickets,1305:170592,TRUE
+170590,2,Sport Events,1305,Events Tickets:Sport Events,1305:170590,TRUE
+170588,2,Theatre Tickets,1305,Events Tickets:Theatre Tickets,1305:170588,TRUE
+170594,2,Theme Park Tickets,1305,Events Tickets:Theme Park Tickets,1305:170594,TRUE
+172008,2,Gift Vouchers & Coupons,1305,Events Tickets:Gift Vouchers & Coupons,1305:172008,FALSE
+1306,2,Other Tickets,1305,Events Tickets:Other Tickets,1305:1306,TRUE
+20710,2,Appliances,11700,"Home, Furniture & DIY:Appliances",11700:20710,FALSE
+20438,2,Bath,11700,"Home, Furniture & DIY:Bath",11700:20438,FALSE
+20444,2,Bedding,11700,"Home, Furniture & DIY:Bedding",11700:20444,FALSE
+16086,2,Celebrations & Occasions,11700,"Home, Furniture & DIY:Celebrations & Occasions",11700:16086,FALSE
+176988,2,Children's Home & Furniture,11700,"Home, Furniture & DIY:Children's Home & Furniture",11700:176988,FALSE
+20558,2,Clocks,11700,"Home, Furniture & DIY:Clocks",11700:20558,FALSE
+109072,2,Conservatories,11700,"Home, Furniture & DIY:Conservatories",11700:109072,TRUE
+20625,2,"Cookware, Dining & Bar",11700,"Home, Furniture & DIY:Cookware, Dining & Bar",11700:20625,FALSE
+63514,2,Curtains & Blinds,11700,"Home, Furniture & DIY:Curtains & Blinds",11700:63514,FALSE
+3187,2,DIY Materials,11700,"Home, Furniture & DIY:DIY Materials",11700:3187,FALSE
+631,2,DIY Tools,11700,"Home, Furniture & DIY:DIY Tools",11700:631,FALSE
+38219,2,Fireplaces & Accessories,11700,"Home, Furniture & DIY:Fireplaces & Accessories",11700:38219,FALSE
+14308,2,Food & Drink,11700,"Home, Furniture & DIY:Food & Drink",11700:14308,FALSE
+3197,2,Furniture,11700,"Home, Furniture & DIY:Furniture",11700:3197,FALSE
+41986,2,"Heating, Cooling & Air",11700,"Home, Furniture & DIY:Heating, Cooling & Air",11700:41986,FALSE
+10033,2,Home Decor,11700,"Home, Furniture & DIY:Home Decor",11700:10033,FALSE
+299,2,Household & Laundry Supplies,11700,"Home, Furniture & DIY:Household & Laundry Supplies",11700:299,FALSE
+177073,2,Kitchen Plumbing & Fittings,11700,"Home, Furniture & DIY:Kitchen Plumbing & Fittings",11700:177073,FALSE
+20697,2,Lighting,11700,"Home, Furniture & DIY:Lighting",11700:20697,FALSE
+157967,2,Luggage & Travel Accessories,11700,"Home, Furniture & DIY:Luggage & Travel Accessories",11700:157967,FALSE
+19266,2,Metaphysical & New Age,11700,"Home, Furniture & DIY:Metaphysical & New Age",11700:19266,FALSE
+20571,2,Rugs & Carpets,11700,"Home, Furniture & DIY:Rugs & Carpets",11700:20571,FALSE
+41968,2,Security & Home Automation,11700,"Home, Furniture & DIY:Security & Home Automation",11700:41968,FALSE
+16092,2,Stationery & School Equipment,11700,"Home, Furniture & DIY:Stationery & School Equipment",11700:16092,FALSE
+43502,2,Storage Solutions,11700,"Home, Furniture & DIY:Storage Solutions",11700:43502,FALSE
+11827,2,Wedding Supplies,11700,"Home, Furniture & DIY:Wedding Supplies",11700:11827,FALSE
+181076,2,"Other Home, Furniture & DIY",11700,"Home, Furniture & DIY:Other Home, Furniture & DIY",11700:181076,TRUE
+9355,2,Mobile & Smart Phones,15032,Mobile Phones & Communication:Mobile & Smart Phones,15032:9355,TRUE
+9394,2,Mobile Phone & PDA Accessories,15032,Mobile Phones & Communication:Mobile Phone & PDA Accessories,15032:9394,FALSE
+43304,2,Mobile Phone Parts,15032,Mobile Phones & Communication:Mobile Phone Parts,15032:43304,TRUE
+178893,2,Smart Watches,15032,Mobile Phones & Communication:Smart Watches,15032:178893,TRUE
+182064,2,Smart Watch Accessories,15032,Mobile Phones & Communication:Smart Watch Accessories,15032:182064,FALSE
+3286,2,Home Phones & Accessories,15032,Mobile Phones & Communication:Home Phones & Accessories,15032:3286,FALSE
+38331,2,PDAs,15032,Mobile Phones & Communication:PDAs,15032:38331,TRUE
+80087,2,"Ringtones, Logos & Software",15032,"Mobile Phones & Communication:Ringtones, Logos & Software",15032:80087,TRUE
+146492,2,Sim Cards & Readers,15032,Mobile Phones & Communication:Sim Cards & Readers,15032:146492,FALSE
+1500,2,Radio Communication Equipment,15032,Mobile Phones & Communication:Radio Communication Equipment,15032:1500,FALSE
+136699,2,Dummy Mobile Phones,15032,Mobile Phones & Communication:Dummy Mobile Phones,15032:136699,TRUE
+182098,2,Vintage Home Phones,15032,Mobile Phones & Communication:Vintage Home Phones,15032:182098,TRUE
+182073,2,Vintage Mobile Phones,15032,Mobile Phones & Communication:Vintage Mobile Phones,15032:182073,TRUE
+42428,2,Other Phones,15032,Mobile Phones & Communication:Other Phones,15032:42428,TRUE
+180008,2,Accessories & Equipment,619,Musical Instruments:Accessories & Equipment,619:180008,FALSE
+16212,2,Brass,619,Musical Instruments:Brass,619:16212,FALSE
+3858,2,Guitars & Basses,619,Musical Instruments:Guitars & Basses,619:3858,FALSE
+182150,2,Instruction Books & Media,619,Musical Instruments:Instruction Books & Media,619:182150,FALSE
+180010,2,Keyboards & Pianos,619,Musical Instruments:Keyboards & Pianos,619:180010,FALSE
+180012,2,Percussion,619,Musical Instruments:Percussion,619:180012,FALSE
+180014,2,Pro Audio Equipment,619,Musical Instruments:Pro Audio Equipment,619:180014,FALSE
+180015,2,Sheet Music & Song Books,619,Musical Instruments:Sheet Music & Song Books,619:180015,FALSE
+180016,2,String,619,Musical Instruments:String,619:180016,FALSE
+10181,2,Wind & Woodwind,619,Musical Instruments:Wind & Woodwind,619:10181,FALSE
+181162,2,Vintage Musical Instruments,619,Musical Instruments:Vintage Musical Instruments,619:181162,FALSE
+308,2,Other Musical Instruments,619,Musical Instruments:Other Musical Instruments,619:308,TRUE
+172206,2,UK & Ireland,10542,Property:UK & Ireland,10542:172206,FALSE
+172187,2,Overseas,10542,Property:Overseas,10542:172187,FALSE
+184435,2,Voice-Enabled Smart Assistants,293,Sound & Vision:Voice-Enabled Smart Assistants,293:184435,TRUE
+183067,2,Virtual Reality,293,Sound & Vision:Virtual Reality,293:183067,FALSE
+73839,2,iPods & MP3 Players,293,Sound & Vision:iPods & MP3 Players,293:73839,TRUE
+56169,2,iPod & MP3 Player Accessories,293,Sound & Vision:iPod & MP3 Player Accessories,293:56169,FALSE
+112529,2,Headphones,293,Sound & Vision:Headphones,293:112529,TRUE
+175747,2,Portable Disc Players & Radios,293,Sound & Vision:Portable Disc Players & Radios,293:175747,FALSE
+14969,2,Home Audio & HiFi Separates,293,Sound & Vision:Home Audio & HiFi Separates,293:14969,FALSE
+48458,2,Performance & DJ Equipment,293,Sound & Vision:Performance & DJ Equipment,293:48458,FALSE
+11071,2,TVs,293,Sound & Vision:TVs,293:11071,TRUE
+32852,2,"DVD, Blu-ray & Home Cinema",293,"Sound & Vision:DVD, Blu-ray & Home Cinema",293:32852,FALSE
+15069,2,TV Reception & Set-Top Boxes,293,Sound & Vision:TV Reception & Set-Top Boxes,293:15069,FALSE
+14961,2,TV & Home Audio Accessories,293,Sound & Vision:TV & Home Audio Accessories,293:14961,FALSE
+71582,2,TV & Home Audio Parts,293,Sound & Vision:TV & Home Audio Parts,293:71582,FALSE
+48446,2,Multipurpose Batteries & Power,293,Sound & Vision:Multipurpose Batteries & Power,293:48446,FALSE
+178894,2,Smart Glasses,293,Sound & Vision:Smart Glasses,293:178894,TRUE
+48644,2,Manuals & Resources,293,Sound & Vision:Manuals & Resources,293:48644,TRUE
+175740,2,Vintage Sound & Vision,293,Sound & Vision:Vintage Sound & Vision,293:175740,FALSE
+175837,2,Other Sound & Vision,293,Sound & Vision:Other Sound & Vision,293:175837,TRUE
+21214,2,American Football,888,Sporting Goods:American Football,888:21214,FALSE
+20835,2,Archery,888,Sporting Goods:Archery,888:20835,FALSE
+106460,2,Badminton,888,Sporting Goods:Badminton,888:106460,FALSE
+16021,2,Baseball,888,Sporting Goods:Baseball,888:16021,FALSE
+21194,2,Basketball,888,Sporting Goods:Basketball,888:21194,FALSE
+20846,2,Bowling (Ten-Pin),888,Sporting Goods:Bowling (Ten-Pin),888:20846,FALSE
+117103,2,Bowls,888,Sporting Goods:Bowls,888:117103,FALSE
+30100,2,Boxing,888,Sporting Goods:Boxing,888:30100,FALSE
+16034,2,Camping & Hiking,888,Sporting Goods:Camping & Hiking,888:16034,FALSE
+36121,2,Canoeing & Kayaking,888,Sporting Goods:Canoeing & Kayaking,888:36121,FALSE
+30105,2,Climbing/ Mountaineering,888,Sporting Goods:Climbing/ Mountaineering,888:30105,FALSE
+21557,2,Cricket,888,Sporting Goods:Cricket,888:21557,FALSE
+7294,2,Cycling,888,Sporting Goods:Cycling,888:7294,FALSE
+72575,2,Darts,888,Sporting Goods:Darts,888:72575,FALSE
+184355,2,Disc Golf,888,Sporting Goods:Disc Golf,888:184355,FALSE
+3153,2,Equestrian,888,Sporting Goods:Equestrian,888:3153,FALSE
+1492,2,Fishing,888,Sporting Goods:Fishing,888:1492,FALSE
+15273,2,"Fitness, Running & Yoga",888,"Sporting Goods:Fitness, Running & Yoga",888:15273,FALSE
+20862,2,Football,888,Sporting Goods:Football,888:20862,FALSE
+33485,2,Football Shirts,888,Sporting Goods:Football Shirts,888:33485,FALSE
+159045,2,Geocaching,888,Sporting Goods:Geocaching,888:159045,FALSE
+1513,2,Golf,888,Sporting Goods:Golf,888:1513,FALSE
+79792,2,Gymnastics,888,Sporting Goods:Gymnastics,888:79792,FALSE
+184369,2,"Skydiving, Para & Hang Gliding",888,"Sporting Goods:Skydiving, Para & Hang Gliding",888:184369,FALSE
+4388,2,Hockey,888,Sporting Goods:Hockey,888:4388,TRUE
+7301,2,Hunting,888,Sporting Goods:Hunting,888:7301,FALSE
+40154,2,Ice Hockey,888,Sporting Goods:Ice Hockey,888:40154,FALSE
+21225,2,Ice Skating,888,Sporting Goods:Ice Skating,888:21225,FALSE
+16258,2,Inline & Roller Skating,888,Sporting Goods:Inline & Roller Skating,888:16258,FALSE
+117146,2,Kitesurfing & Powerkites,888,Sporting Goods:Kitesurfing & Powerkites,888:117146,FALSE
+36279,2,Martial Arts,888,Sporting Goods:Martial Arts,888:36279,FALSE
+184381,2,Paintball,888,Sporting Goods:Paintball,888:184381,FALSE
+123687,2,Rugby League,888,Sporting Goods:Rugby League,888:123687,FALSE
+21563,2,Rugby Union,888,Sporting Goods:Rugby Union,888:21563,FALSE
+98952,2,Sailing,888,Sporting Goods:Sailing,888:98952,FALSE
+11330,2,Scooters,888,Sporting Goods:Scooters,888:11330,FALSE
+16052,2,SCUBA & Snorkelling,888,Sporting Goods:SCUBA & Snorkelling,888:16052,FALSE
+16262,2,Skateboarding,888,Sporting Goods:Skateboarding,888:16262,FALSE
+36259,2,Skiing & Snowboarding,888,Sporting Goods:Skiing & Snowboarding,888:36259,FALSE
+21567,2,Snooker & Pool,888,Sporting Goods:Snooker & Pool,888:21567,FALSE
+62166,2,Squash,888,Sporting Goods:Squash,888:62166,FALSE
+22709,2,Surfing,888,Sporting Goods:Surfing,888:22709,FALSE
+74050,2,Swimming,888,Sporting Goods:Swimming,888:74050,FALSE
+97072,2,Table Tennis,888,Sporting Goods:Table Tennis,888:97072,FALSE
+13340,2,Tennis,888,Sporting Goods:Tennis,888:13340,FALSE
+23806,2,Waterskiing & Wakeboarding,888,Sporting Goods:Waterskiing & Wakeboarding,888:23806,FALSE
+117165,2,Windsurfing,888,Sporting Goods:Windsurfing,888:117165,FALSE
+44704,2,Trophies,888,Sporting Goods:Trophies,888:44704,TRUE
+40141,2,More Sporting Goods,888,Sporting Goods:More Sporting Goods,888:40141,FALSE
+24475,2,American Football Memorabilia,64482,Sports Memorabilia:American Football Memorabilia,64482:24475,FALSE
+31633,2,Boxing Memorabilia,64482,Sports Memorabilia:Boxing Memorabilia,64482:31633,FALSE
+27391,2,Cricket Memorabilia,64482,Sports Memorabilia:Cricket Memorabilia,64482:27391,FALSE
+6093,2,Football Memorabilia,64482,Sports Memorabilia:Football Memorabilia,64482:6093,FALSE
+53621,2,Football Programmes,64482,Sports Memorabilia:Football Programmes,64482:53621,FALSE
+53597,2,Football Shirts,64482,Sports Memorabilia:Football Shirts,64482:53597,FALSE
+31647,2,Golf Memorabilia,64482,Sports Memorabilia:Golf Memorabilia,64482:31647,FALSE
+31663,2,Horse Racing Memorabilia,64482,Sports Memorabilia:Horse Racing Memorabilia,64482:31663,FALSE
+24510,2,Ice Hockey Memorabilia,64482,Sports Memorabilia:Ice Hockey Memorabilia,64482:24510,FALSE
+68362,2,Motor Sport Memorabilia,64482,Sports Memorabilia:Motor Sport Memorabilia,64482:68362,FALSE
+27291,2,Olympic Memorabilia,64482,Sports Memorabilia:Olympic Memorabilia,64482:27291,FALSE
+53653,2,Rugby League Memorabilia,64482,Sports Memorabilia:Rugby League Memorabilia,64482:53653,FALSE
+53656,2,Rugby Union Memorabilia,64482,Sports Memorabilia:Rugby Union Memorabilia,64482:53656,FALSE
+141755,2,"Sports Stickers, Sets & Albums",64482,"Sports Memorabilia:Sports Stickers, Sets & Albums",64482:141755,TRUE
+212,2,Sports Trading Cards,64482,Sports Memorabilia:Sports Trading Cards,64482:212,FALSE
+21550,2,Subbuteo,64482,Sports Memorabilia:Subbuteo,64482:21550,FALSE
+430,2,Tennis Memorabilia,64482,Sports Memorabilia:Tennis Memorabilia,64482:430,TRUE
+31677,2,Wrestling Memorabilia,64482,Sports Memorabilia:Wrestling Memorabilia,64482:31677,FALSE
+75690,2,More Sports Memorabilia,64482,Sports Memorabilia:More Sports Memorabilia,64482:75690,FALSE
+6030,2,Car Parts,131090,Vehicle Parts & Accessories:Car Parts,131090:6030,FALSE
+107059,2,Car Tuning & Styling,131090,Vehicle Parts & Accessories:Car Tuning & Styling,131090:107059,FALSE
+14770,2,"Car Wheels, Tyres & Trims",131090,"Vehicle Parts & Accessories:Car Wheels, Tyres & Trims",131090:14770,FALSE
+82099,2,Car Accessories,131090,Vehicle Parts & Accessories:Car Accessories,131090:82099,FALSE
+36085,2,Car Manuals & Literature,131090,Vehicle Parts & Accessories:Car Manuals & Literature,131090:36085,FALSE
+34998,2,Garage Equipment & Tools,131090,Vehicle Parts & Accessories:Garage Equipment & Tools,131090:34998,FALSE
+179487,2,"Oils, Fluids & Lubricants",131090,"Vehicle Parts & Accessories:Oils, Fluids & Lubricants",131090:179487,FALSE
+3270,2,"GPS, Audio & In-Car Technology",131090,"Vehicle Parts & Accessories:GPS, Audio & In-Car Technology",131090:3270,FALSE
+177074,2,"Clothing, Helmets & Protection",131090,"Vehicle Parts & Accessories:Clothing, Helmets & Protection",131090:177074,FALSE
+10063,2,Motorcycle Parts,131090,Vehicle Parts & Accessories:Motorcycle Parts,131090:10063,FALSE
+96382,2,Motorcycle Tuning & Styling,131090,Vehicle Parts & Accessories:Motorcycle Tuning & Styling,131090:96382,TRUE
+180035,2,Motorcycle Wheels & Tyres,131090,Vehicle Parts & Accessories:Motorcycle Wheels & Tyres,131090:180035,FALSE
+25622,2,Motorcycle Accessories,131090,Vehicle Parts & Accessories:Motorcycle Accessories,131090:25622,FALSE
+21670,2,"Motorcycle Manuals, Literature",131090,"Vehicle Parts & Accessories:Motorcycle Manuals, Literature",131090:21670,FALSE
+169487,2,Commercial Vehicles Parts,131090,Vehicle Parts & Accessories:Commercial Vehicles Parts,131090:169487,FALSE
+169486,2,Motorhome Parts & Accessories,131090,Vehicle Parts & Accessories:Motorhome Parts & Accessories,131090:169486,FALSE
+84149,2,Scooter Parts,131090,Vehicle Parts & Accessories:Scooter Parts,131090:84149,FALSE
+122304,2,Trials & Motocross Bike Parts,131090,Vehicle Parts & Accessories:Trials & Motocross Bike Parts,131090:122304,TRUE
+36628,2,"Quad, ATV & Trike Parts",131090,"Vehicle Parts & Accessories:Quad, ATV & Trike Parts",131090:36628,TRUE
+169485,2,Boats Parts & Accessories,131090,Vehicle Parts & Accessories:Boats Parts & Accessories,131090:169485,FALSE
+169484,2,Aircraft Parts & Accessories,131090,Vehicle Parts & Accessories:Aircraft Parts & Accessories,131090:169484,FALSE
+14024,2,Automobilia,131090,Vehicle Parts & Accessories:Automobilia,131090:14024,FALSE
+421,2,Cherished Numbers,131090,Vehicle Parts & Accessories:Cherished Numbers,131090:421,TRUE
+177599,2,Vehicle Services & Repairs,131090,Vehicle Parts & Accessories:Vehicle Services & Repairs,131090:177599,TRUE
+36630,2,Disabled Vehicle Parts,131090,Vehicle Parts & Accessories:Disabled Vehicle Parts,131090:36630,TRUE
+170140,2,Golf Car Parts & Accessories,131090,Vehicle Parts & Accessories:Golf Car Parts & Accessories,131090:170140,FALSE
+122309,2,Military Vehicle Parts,131090,Vehicle Parts & Accessories:Military Vehicle Parts,131090:122309,TRUE
+36631,2,Other Vehicle Parts & Accs,131090,Vehicle Parts & Accessories:Other Vehicle Parts & Accs,131090:36631,TRUE
+52529,2,Antiques & Art,40005,Wholesale & Job Lots:Antiques & Art,40005:52529,TRUE
+40019,2,Automotive,40005,Wholesale & Job Lots:Automotive,40005:40019,TRUE
+48757,2,Baby,40005,Wholesale & Job Lots:Baby,40005:48757,TRUE
+90926,2,"Business, Office & Industrial",40005,"Wholesale & Job Lots:Business, Office & Industrial",40005:90926,FALSE
+41964,2,"Clothes, Shoes & Accessories",40005,"Wholesale & Job Lots:Clothes, Shoes & Accessories",40005:41964,FALSE
+26425,2,Collectables,40005,Wholesale & Job Lots:Collectables,40005:26425,TRUE
+45090,2,Computing,40005,Wholesale & Job Lots:Computing,40005:45090,FALSE
+51004,2,Consumer Electronics,40005,Wholesale & Job Lots:Consumer Electronics,40005:51004,TRUE
+45077,2,Crafts,40005,Wholesale & Job Lots:Crafts,40005:45077,TRUE
+52550,2,Dolls & Bears,40005,Wholesale & Job Lots:Dolls & Bears,40005:52550,TRUE
+31606,2,"DVDs, Films & TV",40005,"Wholesale & Job Lots:DVDs, Films & TV",40005:31606,FALSE
+91595,2,Greeting Cards/Stationery,40005,Wholesale & Job Lots:Greeting Cards/Stationery,40005:91595,TRUE
+31822,2,Health & Beauty,40005,Wholesale & Job Lots:Health & Beauty,40005:31822,TRUE
+31605,2,Home & Garden,40005,Wholesale & Job Lots:Home & Garden,40005:31605,FALSE
+40131,2,Jewellery & Watches,40005,Wholesale & Job Lots:Jewellery & Watches,40005:40131,FALSE
+45065,2,Mobile & Home Phones,40005,Wholesale & Job Lots:Mobile & Home Phones,40005:45065,FALSE
+31608,2,Music,40005,Wholesale & Job Lots:Music,40005:31608,FALSE
+52555,2,Musical Instruments,40005,Wholesale & Job Lots:Musical Instruments,40005:52555,TRUE
+90950,2,Novelty Items,40005,Wholesale & Job Lots:Novelty Items,40005:90950,TRUE
+31583,2,PC & Video Gaming,40005,Wholesale & Job Lots:PC & Video Gaming,40005:31583,TRUE
+45089,2,Photography,40005,Wholesale & Job Lots:Photography,40005:45089,TRUE
+60102,2,"Pottery, Porcelain & Glass",40005,"Wholesale & Job Lots:Pottery, Porcelain & Glass",40005:60102,TRUE
+26423,2,Sporting Goods,40005,Wholesale & Job Lots:Sporting Goods,40005:26423,TRUE
+56080,2,Sports Memorabilia,40005,Wholesale & Job Lots:Sports Memorabilia,40005:56080,TRUE
+90951,2,Tickets & Travel,40005,Wholesale & Job Lots:Tickets & Travel,40005:90951,TRUE
+26424,2,Toys & Games,40005,Wholesale & Job Lots:Toys & Games,40005:26424,TRUE
+48461,2,Mixed Lots,40005,Wholesale & Job Lots:Mixed Lots,40005:48461,TRUE
+56384,2,Other Wholesale & Job Lots,40005,Wholesale & Job Lots:Other Wholesale & Job Lots,40005:56384,TRUE
+11783,2,Art Supplies,14339,Crafts:Art Supplies,14339:11783,FALSE
+134304,2,Basketry & Chair Caning,14339,Crafts:Basketry & Chair Caning,14339:134304,FALSE
+31723,2,Beads & Jewellery Making,14339,Crafts:Beads & Jewellery Making,14339:31723,FALSE
+183683,2,Candle Making & Soap Making,14339,Crafts:Candle Making & Soap Making,14339:183683,FALSE
+28145,2,Children's Crafts,14339,Crafts:Children's Crafts,14339:28145,TRUE
+28162,2,Fabric,14339,Crafts:Fabric,14339:28162,TRUE
+183118,2,Fabric Painting & Decorating,14339,Crafts:Fabric Painting & Decorating,14339:183118,FALSE
+183126,2,Decorative & Folk Painting,14339,Crafts:Decorative & Folk Painting,14339:183126,FALSE
+16491,2,Floral Crafts,14339,Crafts:Floral Crafts,14339:16491,FALSE
+11786,2,Framing/Matting,14339,Crafts:Framing/Matting,14339:11786,TRUE
+3099,2,Glass Art Supplies,14339,Crafts:Glass Art Supplies,14339:3099,TRUE
+57738,2,Hand-Crafted Items,14339,Crafts:Hand-Crafted Items,14339:57738,TRUE
+28131,2,Leathercrafts,14339,Crafts:Leathercrafts,14339:28131,FALSE
+11787,2,Mosaic,14339,Crafts:Mosaic,14339:11787,TRUE
+28102,2,Multi-Purpose Craft Supplies,14339,Crafts:Multi-Purpose Craft Supplies,14339:28102,FALSE
+160706,2,Needlecrafts & Yarn,14339,Crafts:Needlecrafts & Yarn,14339:160706,FALSE
+3122,2,Rubber Stamping,14339,Crafts:Rubber Stamping,14339:3122,FALSE
+11788,2,Scrapbooking & Paper Crafts,14339,Crafts:Scrapbooking & Paper Crafts,14339:11788,FALSE
+160737,2,Sewing,14339,Crafts:Sewing,14339:160737,FALSE
+183302,2,"Sculpting, Moulding & Ceramics",14339,"Crafts:Sculpting, Moulding & Ceramics",14339:183302,FALSE
+3127,2,Woodworking,14339,Crafts:Woodworking,14339:3127,FALSE
+112545,2,More Crafts,14339,Crafts:More Crafts,14339:112545,FALSE
+238,2,"Dolls, Clothing & Accessories",237,"Dolls & Bears:Dolls, Clothing & Accessories",237:238,FALSE
+1202,2,Dolls' Miniatures & Houses,237,Dolls & Bears:Dolls' Miniatures & Houses,237:1202,FALSE
+386,2,Bears,237,Dolls & Bears:Bears,237:386,FALSE
+16079,2,Accommodation,3252,Holidays & Travel:Accommodation,3252:16079,FALSE
+25614,2,Package Holidays,3252,Holidays & Travel:Package Holidays,3252:25614,TRUE
+34514,2,Short Breaks,3252,Holidays & Travel:Short Breaks,3252:34514,TRUE
+3253,2,Flight Tickets,3252,Holidays & Travel:Flight Tickets,3252:3253,TRUE
+98982,2,Train Tickets,3252,Holidays & Travel:Train Tickets,3252:98982,TRUE
+88839,2,Bus/ Coach Tickets,3252,Holidays & Travel:Bus/ Coach Tickets,3252:88839,TRUE
+16078,2,Ferries/ Cruises,3252,Holidays & Travel:Ferries/ Cruises,3252:16078,TRUE
+147399,2,Car Hire/ Car Rental,3252,Holidays & Travel:Car Hire/ Car Rental,3252:147399,TRUE
+1310,2,Other Travel,3252,Holidays & Travel:Other Travel,3252:1310,TRUE
+139973,2,Video Games,1249,Video Games & Consoles:Video Games,1249:139973,TRUE
+139971,2,Video Game Consoles,1249,Video Games & Consoles:Video Game Consoles,1249:139971,TRUE
+54968,2,Video Game Accessories,1249,Video Games & Consoles:Video Game Accessories,1249:54968,FALSE
+182174,2,"Manuals, Inserts & Box Art",1249,"Video Games & Consoles:Manuals, Inserts & Box Art",1249:182174,TRUE
+182175,2,Original Game Cases & Boxes,1249,Video Games & Consoles:Original Game Cases & Boxes,1249:182175,TRUE
+156597,2,Prepaid Gaming Cards,1249,Video Games & Consoles:Prepaid Gaming Cards,1249:156597,TRUE
+171833,2,Replacement Parts & Tools,1249,Video Games & Consoles:Replacement Parts & Tools,1249:171833,TRUE
+156595,2,Strategy Guides & Cheats,1249,Video Games & Consoles:Strategy Guides & Cheats,1249:156595,TRUE
+38583,2,Video Game Merchandise,1249,Video Games & Consoles:Video Game Merchandise,1249:38583,TRUE
+3944,2,Coin-Operated Gaming,1249,Video Games & Consoles:Coin-Operated Gaming,1249:3944,FALSE
+187,2,Other Video Games & Consoles,1249,Video Games & Consoles:Other Video Games & Consoles,1249:187,TRUE
+116881,2,Beekeeping,1281,Pet Supplies:Beekeeping,1281:116881,TRUE
+20734,2,Birds,1281,Pet Supplies:Birds,1281:20734,FALSE
+20737,2,Cat Supplies,1281,Pet Supplies:Cat Supplies,1281:20737,FALSE
+20742,2,Dog Supplies,1281,Pet Supplies:Dog Supplies,1281:20742,FALSE
+20754,2,Fish & Aquarium,1281,Pet Supplies:Fish & Aquarium,1281:20754,FALSE
+116391,2,Pet Memorials,1281,Pet Supplies:Pet Memorials,1281:116391,TRUE
+177801,2,Poultry & Waterfowl,1281,Pet Supplies:Poultry & Waterfowl,1281:177801,TRUE
+1285,2,Reptiles,1281,Pet Supplies:Reptiles,1281:1285,TRUE
+26696,2,Small Animal Supplies,1281,Pet Supplies:Small Animal Supplies,1281:26696,FALSE
+122950,2,Spiders & Insects,1281,Pet Supplies:Spiders & Insects,1281:122950,TRUE
+301,2,Other Pet Supplies,1281,Pet Supplies:Other Pet Supplies,1281:301,TRUE
+11838,2,Bath & Body,26395,Health & Beauty:Bath & Body,26395:11838,FALSE
+11863,2,Facial Skin Care,26395,Health & Beauty:Facial Skin Care,26395:11863,FALSE
+180345,2,Fragrances,26395,Health & Beauty:Fragrances,26395:180345,FALSE
+11854,2,Hair Care & Styling,26395,Health & Beauty:Hair Care & Styling,26395:11854,FALSE
+67588,2,Health Care,26395,Health & Beauty:Health Care,26395:67588,FALSE
+31786,2,Make-Up,26395,Health & Beauty:Make-Up,26395:31786,FALSE
+36447,2,Massage,26395,Health & Beauty:Massage,26395:36447,FALSE
+11778,2,"Mobility, Disability & Medical",26395,"Health & Beauty:Mobility, Disability & Medical",26395:11778,FALSE
+47945,2,"Nail Care, Manicure & Pedicure",26395,"Health & Beauty:Nail Care, Manicure & Pedicure",26395:47945,FALSE
+67659,2,Natural & Alternative Remedies,26395,Health & Beauty:Natural & Alternative Remedies,26395:67659,FALSE
+31769,2,Oral Care,26395,Health & Beauty:Oral Care,26395:31769,FALSE
+177731,2,Salon & Spa,26395,Health & Beauty:Salon & Spa,26395:177731,FALSE
+31762,2,Shaving & Hair Removal,26395,Health & Beauty:Shaving & Hair Removal,26395:31762,FALSE
+31772,2,Sun Care & Tanning,26395,Health & Beauty:Sun Care & Tanning,26395:31772,FALSE
+33914,2,Tattoos & Body Art,26395,Health & Beauty:Tattoos & Body Art,26395:33914,FALSE
+31414,2,Vision Care,26395,Health & Beauty:Vision Care,26395:31414,FALSE
+180959,2,Vitamins & Dietary Supplements,26395,Health & Beauty:Vitamins & Dietary Supplements,26395:180959,FALSE
+183497,2,"E Cigarettes, Vapes & Accs",26395,"Health & Beauty:E Cigarettes, Vapes & Accs",26395:183497,FALSE
+1277,2,Other Health & Beauty,26395,Health & Beauty:Other Health & Beauty,26395:1277,TRUE
+15124,2,Body Jewellery,281,Jewellery & Watches:Body Jewellery,281:15124,FALSE
+10968,2,Costume Jewellery,281,Jewellery & Watches:Costume Jewellery,281:10968,FALSE
+11312,2,Ethnic & Tribal Jewellery,281,Jewellery & Watches:Ethnic & Tribal Jewellery,281:11312,FALSE
+4196,2,Fine Jewellery,281,Jewellery & Watches:Fine Jewellery,281:4196,FALSE
+10321,2,Jewellery Boxes & Supplies,281,Jewellery & Watches:Jewellery Boxes & Supplies,281:10321,FALSE
+179264,2,Loose Beads,281,Jewellery & Watches:Loose Beads,281:179264,FALSE
+491,2,Loose Diamonds & Gemstones,281,Jewellery & Watches:Loose Diamonds & Gemstones,281:491,FALSE
+10290,2,Men's Jewellery,281,Jewellery & Watches:Men's Jewellery,281:10290,FALSE
+48579,2,Vintage & Antique Jewellery,281,Jewellery & Watches:Vintage & Antique Jewellery,281:48579,FALSE
+14324,2,"Watches, Parts & Accessories",281,"Jewellery & Watches:Watches, Parts & Accessories",281:14324,FALSE
+98863,2,Other Jewellery,281,Jewellery & Watches:Other Jewellery,281:98863,TRUE
+176983,2,Cassettes,11233,Music:Cassettes,11233:176983,TRUE
+176984,2,CDs,11233,Music:CDs,11233:176984,TRUE
+179060,2,Digital Music Downloads,11233,Music:Digital Music Downloads,11233:179060,TRUE
+176985,2,Records,11233,Music:Records,11233:176985,FALSE
+618,2,Other Formats,11233,Music:Other Formats,11233:618,TRUE
+52473,2,Storage & Media Accessories,11233,Music:Storage & Media Accessories,11233:52473,TRUE
+2329,2,Music Memorabilia,11233,Music:Music Memorabilia,11233:2329,FALSE
+149242,2,Barbecuing & Outdoor Heating,159912,Garden & Patio:Barbecuing & Outdoor Heating,159912:149242,FALSE
+181020,2,Composting & Garden Waste,159912,Garden & Patio:Composting & Garden Waste,159912:181020,FALSE
+159473,2,Garden Clothing & Gear,159912,Garden & Patio:Garden Clothing & Gear,159912:159473,FALSE
+177032,2,Garden Fencing,159912,Garden & Patio:Garden Fencing,159912:177032,FALSE
+181033,2,Garden Hand Tools & Equipment,159912,Garden & Patio:Garden Hand Tools & Equipment,159912:181033,FALSE
+42154,2,Garden Lighting,159912,Garden & Patio:Garden Lighting,159912:42154,FALSE
+20498,2,Garden Ornaments,159912,Garden & Patio:Garden Ornaments,159912:20498,FALSE
+25863,2,Garden & Patio Furniture,159912,Garden & Patio:Garden & Patio Furniture,159912:25863,FALSE
+29518,2,Garden Power Tools & Equipment,159912,Garden & Patio:Garden Power Tools & Equipment,159912:29518,FALSE
+177017,2,Garden Structures & Shade,159912,Garden & Patio:Garden Structures & Shade,159912:177017,FALSE
+43554,2,Hydroponics & Seed Starting,159912,Garden & Patio:Hydroponics & Seed Starting,159912:43554,FALSE
+181027,2,Landscaping & Garden Materials,159912,Garden & Patio:Landscaping & Garden Materials,159912:181027,FALSE
+43560,2,Lawnmowers,159912,Garden & Patio:Lawnmowers,159912:43560,FALSE
+181003,2,"Plants, Seeds & Bulbs",159912,"Garden & Patio:Plants, Seeds & Bulbs",159912:181003,FALSE
+179308,2,"Plant Care, Soil & Accessories",159912,"Garden & Patio:Plant Care, Soil & Accessories",159912:179308,FALSE
+93632,2,Ponds & Water Features,159912,Garden & Patio:Ponds & Water Features,159912:93632,FALSE
+20727,2,Swimming Pools & Hot Tubs,159912,Garden & Patio:Swimming Pools & Hot Tubs,159912:20727,FALSE
+29521,2,Watering Equipment,159912,Garden & Patio:Watering Equipment,159912:29521,FALSE
+181034,2,Weed & Pest Control,159912,Garden & Patio:Weed & Pest Control,159912:181034,FALSE
+159913,2,Other Garden & Patio,159912,Garden & Patio:Other Garden & Patio,159912:159913,TRUE
+3499,2,Great Britain,260,Stamps:Great Britain,260:3499,FALSE
+181423,2,Africa,260,Stamps:Africa,260:181423,FALSE
+181416,2,Asia,260,Stamps:Asia,260:181416,FALSE
+181424,2,Australia & Oceania,260,Stamps:Australia & Oceania,260:181424,FALSE
+65174,2,British Colonies & Territories,260,Stamps:British Colonies & Territories,260:65174,FALSE
+179377,2,Caribbean,260,Stamps:Caribbean,260:179377,FALSE
+181417,2,Central & South America,260,Stamps:Central & South America,260:181417,FALSE
+4742,2,Europe,260,Stamps:Europe,260:4742,FALSE
+3490,2,Ireland,260,Stamps:Ireland,260:3490,TRUE
+181422,2,Middle East,260,Stamps:Middle East,260:181422,FALSE
+181444,2,North America,260,Stamps:North America,260:181444,FALSE
+261,2,United States,260,Stamps:United States,260:261,FALSE
+181420,2,Worldwide,260,Stamps:Worldwide,260:181420,FALSE
+4752,2,Thematics,260,Stamps:Thematics,260:4752,FALSE
+7898,2,Philately,260,Stamps:Philately,260:7898,FALSE
+181421,2,Publications & Supplies,260,Stamps:Publications & Supplies,260:181421,FALSE
+170137,2,Other Stamps,260,Stamps:Other Stamps,260:170137,TRUE
+70038,2,Date-Lined Ceramics,870,"Pottery, Porcelain & Glass:Date-Lined Ceramics",870:70038,FALSE
+50693,2,Glass,870,"Pottery, Porcelain & Glass:Glass",870:50693,FALSE
+24,2,Porcelain/China,870,"Pottery, Porcelain & Glass:Porcelain/China",870:24:00,FALSE
+27,2,Pottery,870,"Pottery, Porcelain & Glass:Pottery",870:27:00,FALSE
+65026,2,Stoneware,870,"Pottery, Porcelain & Glass:Stoneware",870:65026,FALSE
+246,2,Action Figures,220,Toys & Games:Action Figures,220:246,FALSE
+49019,2,Beanies,220,Toys & Games:Beanies,220:49019,FALSE
+183446,2,Construction Toys & Kits,220,Toys & Games:Construction Toys & Kits,220:183446,FALSE
+80546,2,Creative Toys & Activities,220,Toys & Games:Creative Toys & Activities,220:80546,TRUE
+222,2,Diecast & Vehicles,220,Toys & Games:Diecast & Vehicles,220:222,FALSE
+11731,2,Educational Toys,220,Toys & Games:Educational Toys,220:11731,FALSE
+1082,2,Electronic Pets,220,Toys & Games:Electronic Pets,220:1082,TRUE
+767,2,"Fast Food, Cereal & Sweet Toys",220,"Toys & Games:Fast Food, Cereal & Sweet Toys",220:767,TRUE
+233,2,Games,220,Toys & Games:Games,220:233,FALSE
+2613,2,Jigsaws & Puzzles,220,Toys & Games:Jigsaws & Puzzles,220:2613,FALSE
+1188,2,Model Kits,220,Toys & Games:Model Kits,220:1188,FALSE
+11743,2,Outdoor Toys & Activities,220,Toys & Games:Outdoor Toys & Activities,220:11743,FALSE
+19169,2,Pre-School & Young Children,220,Toys & Games:Pre-School & Young Children,220:19169,FALSE
+2562,2,Radio Control & RC Toys,220,Toys & Games:Radio Control & RC Toys,220:2562,FALSE
+2616,2,Scalextric & Slot Car,220,Toys & Games:Scalextric & Slot Car,220:2616,FALSE
+436,2,Soft Toys & Stuffed Animals,220,Toys & Games:Soft Toys & Stuffed Animals,220:436,FALSE
+14737,2,Steam,220,Toys & Games:Steam,220:14737,TRUE
+2631,2,Toy Soldiers,220,Toys & Games:Toy Soldiers,220:2631,FALSE
+2624,2,TV & Film Character Toys,220,Toys & Games:TV & Film Character Toys,220:2624,FALSE
+717,2,Vintage & Classic Toys,220,Toys & Games:Vintage & Classic Toys,220:717,FALSE
+16486,2,Wargames & Role-Playing,220,Toys & Games:Wargames & Role-Playing,220:16486,FALSE
+1039,2,Other Toys & Games,220,Toys & Games:Other Toys & Games,220:1039,TRUE
+617,2,DVDs & Blu-rays,11232,"DVDs, Films & TV:DVDs & Blu-rays",11232:617,TRUE
+63821,2,Film Stock,11232,"DVDs, Films & TV:Film Stock",11232:63821,TRUE
+381,2,LaserDiscs,11232,"DVDs, Films & TV:LaserDiscs",11232:381,TRUE
+132975,2,UMDs,11232,"DVDs, Films & TV:UMDs",11232:132975,TRUE
+309,2,VHS Tapes,11232,"DVDs, Films & TV:VHS Tapes",11232:309,TRUE
+41676,2,Other Formats,11232,"DVDs, Films & TV:Other Formats",11232:41676,TRUE
+52554,2,Storage & Media Accessories,11232,"DVDs, Films & TV:Storage & Media Accessories",11232:52554,TRUE
+57,2,Film Memorabilia,11232,"DVDs, Films & TV:Film Memorabilia",11232:57,FALSE
+1424,2,TV Memorabilia,11232,"DVDs, Films & TV:TV Memorabilia",11232:1424,FALSE
+3133,2,Educational,99,Everything Else:Educational,99:3133,TRUE
+102480,2,Information Products,99,Everything Else:Information Products,99:102480,FALSE
+175838,2,Item Based Services,99,Everything Else:Item Based Services,99:175838,FALSE
+172539,2,Promotions,99,Everything Else:Promotions,99:172539,FALSE
+88433,2,Other,99,Everything Else:Other,99:88433,TRUE
+14112,2,Test Auctions,99,Everything Else:Test Auctions,99:14112,FALSE
