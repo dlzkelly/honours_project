@@ -1,98 +1,55 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <title><%= title %></title>
+	<head>
+      <meta
+      name="viewport"
+      content="
+        width=device-width,
+        initial-scale=1,
+        minimum-scale=1,
+        maximum-scale=1"
+      />
+      <title><%= title %>	</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/stylesheets/allCategories2.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/stylesheets/allCategoriesStyle.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css"></script>
+      <script src="javascripts/RSVPGenerator.js"></script>
+    </head>
+			
+    <body>
+      <header>
+        <div  style="text-align: left; vertical-align: top;padding: 5px">
+          <img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
+       </div>      
+      </header>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css"></script>
-    <script src="javascripts/RSVPGenerator.js"></script>
-  </head>
+				<main role="main">
+					<section id="jumbotron" class="jumbotron text-center">
+						<div class="container">
+							<h1 class="jumbotron-heading">All Categories</h1>
+						</div>
+          </section>
 
-  <header>
-    <div  style="text-align: left; vertical-align: top;padding: 10px">
-      <img src="/images/logo.png"  style="width:163.35px;height:67.5px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" > </img>
-  </div>
-</header>
+          <section id="categorySection">
 
-  <body>
-    <main role="main" style="background-color: #eee;">
-
-        <section id="jumbotron" class="jumbotron text-center" style="padding-top: 20px; padding-bottom: 20px;">
-          <div class="container">
-            <h1 class="jumbotron-heading">All Categories</h1>
-          </div>
-        </section>
-
-
-        <section id="cardSection" >
-          <div class="cardLeft">
-            <div class="card">
-             <img src="/images/antiques.jpg" class="card-img-top">
-              <div class="card-body">
-               <p class="card-text">Antiques</p>
-               
-              </div>
-            </div>
-          </div>
-          <div class="cardRight"> 
-            <div class="card">
-              <img src="/images/art.jpg" class="card-img-top">
-              <div class="card-body">
-                <p class="card-text">Art</p>
-                
-              </div>
-            </div>
-          </div>
-
-        </section>
-        
-
-
-          <section id="cardSection" >
-            <div class="cardLeft">
-              <div class="card">
-               <img src="/images/baby.jpg" class="card-img-top">
-                <div class="card-body">
-                 <p class="card-text">Baby</p>
-                 
+            <div class="grid-container">
+                <div class="grid-50">
+                  Antiques
+                </div>
+                <div class="grid-50">
+                  Art
+                </div>
+                <div class="grid-50">
+                  Books
                 </div>
               </div>
-            </div>
-            <div class="cardRight"> 
-              <div class="card">
-                <img src="/images/books_comics_magazines.jpg" class="card-img-top">
-                <div class="card-body">
-                  <p class="card-text">Books, Comics & Magazines</p>
-                  
-                </div>
-              </div>
-            </div>
+              
+            </section>
 
-
-
-            <section id="cardSection" >
-                <div class="cardLeft">
-                  <div class="card">
-                   <img src="/images/business_office_industrial.jpg" class="card-img-top">
-                    <div class="card-body">
-                     <p class="card-text">Business, Office & Industrial</p>
-                     
-                    </div>
-                  </div>
-                </div>
-                <div class="cardRight"> 
-                  <div class="card">
-                    <img src="/images/cameras_photography.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <p class="card-text">Cameras & Photography</p>
-                      
-                    </div>
-                  </div>
-                </div>
-      </main>
-  </body>
-</html>
+          </section>
+          
+				</main>
+			</body>
+		</html>

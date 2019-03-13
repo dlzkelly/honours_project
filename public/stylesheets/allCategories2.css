@@ -1,0 +1,31 @@
+.text-center{
+    padding-top: 0.05px; 
+    padding-bottom: 10px;
+    background-color: #eee;
+}
+
+.jumbotron-heading {
+    font-size: 30px;   
+}
+
+header{
+    background-color: white;
+}
+
+body{
+    background-color: #eee;
+}
+
+.grid-container{
+    padding: 2px;
+}
+
+.grid-50{
+    border-style: solid;
+    border-color: black;
+    background-color: white;   
+     padding: 2px;
+
+
+
+}
