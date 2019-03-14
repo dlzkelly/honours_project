@@ -25,7 +25,20 @@ body{
     border-color: black;
     background-color: white;   
      padding: 2px;
-
-
-
 }
+
+.column {
+    float: left;
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .gridsquare{
+    float: left;
+    width: 50%;
+  }
