@@ -4,38 +4,33 @@ fetch(url)
     return response.json();
   })
   .then(function(jsonResponse) {
-    var n = jsonResponse.categories.length; 
-    
-    console.log(jsonResponse.categories.length);
 
-    document.getElementById("categorySection").innerHTML = "Hello";
-
+    var n=35;
     var j=1;
-
-    n = 5;
-    for(var i = 1; i < n; i++) {
-        document.getElementById("categorySection").innerHtml+='<div class="row">';
-        console.log("we made it" + n);
-        for(k = 0; k < n; k++) {
-            document.getElementById("categorySection").innerHtml+='<div class="gridsquare">' + (j++) + '</div>';
-        }
     
-        document.getElementById("categorySection").innerHtml+='</div>';
+    var src;
+    var img;
+    
+    for(var i = 0; i < n; i++) {
+        nameNoSpaces = jsonResponse.categories[i].name.split(' ').join('_').replace(/,/g, '');
+        divID = "square_" + nameNoSpaces;
+
+        console.log("divID: " + divID);
+        document.body.innerHTML+='<div class="gridsquare" id=' + divID + ' ">'
+        + (j++) + jsonResponse.categories[i].name
+         + '</div>';
+
+        img = document.createElement("img");
+        img.src = jsonResponse.categories[i].image;
+
+        console.log("image source: " + img.src);
+        src = document.getElementById(divID);
+        console.log(src);
+        src.appendChild(img);
      }  
   });
 
-//   var n=4;//take grid column value as you want
-// var j=1;
 
-// for(var i = 1; i < n; i++) {
-//     document.body.innerHTML+='<div class="row">';
-
-//     for(k = 0; k < n; k++) {
-//         document.body.innerHTML+='<div class="gridsquare">' + (j++) + '</div>';
-//     }
-
-//     document.body.innerHTML+='</div>';
-// }
 
 
 
