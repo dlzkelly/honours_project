@@ -480,8 +480,8 @@
             ]
         },
         {
-			"name": "Collectibles",
-			"image": "../public/images/collectibles.jpg",
+			"name": "Collectables",
+			"image": "../public/images/collectables.jpg",
 			"subcategories": [
                 {
                     "name": "Advertising Collectables"
@@ -514,7 +514,7 @@
                     "name": "Collectable Clocks"
                   },
                   {
-                    "name": "Collectible Card Games"
+                    "name": "Collectable Card Games"
                   },
                   {
                     "name": "Decorative Ornaments & Plates"

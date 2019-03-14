@@ -1,4 +1,4 @@
-url = "https://api.myjson.com/bins/19esd2";
+url = "https://api.myjson.com/bins/1cch5a";
 fetch(url)
   .then(function(response) {
     return response.json();
@@ -15,15 +15,16 @@ fetch(url)
         nameFormatted = jsonResponse.categories[i].name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
         divID = "square_" + nameFormatted;
 
-        document.body.innerHTML+='<div class="gridsquare" id=' + divID + ' ">'
-        + (j++) + jsonResponse.categories[i].name
+        document.getElementById("categorySection").innerHTML+='<div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;" id=' + divID + ' ">'
+         + jsonResponse.categories[i].name
          + '</div>';
 
         img = document.createElement("img");
-        img.src = jsonResponse.categories[i].image.replace(/public/, '');
+        img.src = jsonResponse.categories[i].image.replace(/\/public/, '');
 
         src = document.getElementById(divID);
         src.appendChild(img);
+
 
         console.log("divID: " + divID);
         console.log("image source: " + img.src);

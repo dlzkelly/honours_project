@@ -20,9 +20,24 @@ body{
     padding: 2px;
 }
 
-.grid-50{
-    border-style: solid;
-    border-color: black;
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8px;
+}
+
+.gridsquare{
+
     background-color: white;   
-     padding: 2px;
+     padding-bottom: 50px;
+     width: 100%;
+}
+
+img{
+    height: 165px;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
 }
