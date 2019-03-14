@@ -4,8 +4,12 @@
     background-color: #eee;
 }
 
-.jumbotron-heading {
-    font-size: 30px;   
+.allCatText  {
+    font-size: 20px; 
+    position: fixed;
+    background-color: #eee;  
+    text-align: center;
+    
 }
 
 header{
@@ -38,18 +42,22 @@ img{
     height: 165px;
 }
 
-jumbotron{
-    margin-bottom: 0px;
-    width: 100%;
-}
 
 .banner{
     position: fixed;
     width: 100%;
+    height: 50px;
+    background-color: #eee;
 }
+
+
 
 rsvp_div{
     background-color: #eee;
     font-size: 10px;
-    
+
+}
+
+.divider{
+    height: 150px;
 }
