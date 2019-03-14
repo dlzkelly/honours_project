@@ -38,6 +38,18 @@ img{
     height: 165px;
 }
 
-.jumbotron{
+jumbotron{
     margin-bottom: 0px;
+    width: 100%;
+}
+
+.banner{
+    position: fixed;
+    width: 100%;
+}
+
+rsvp_div{
+    background-color: #eee;
+    font-size: 10px;
+    
 }
