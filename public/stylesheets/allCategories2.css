@@ -4,13 +4,13 @@
     background-color: #eee;
 }
 
-.allCatText  {
+/* .allCatText  {
     font-size: 20px; 
     position: fixed;
     background-color: #eee;  
     text-align: center;
     
-}
+} */
 
 header{
     background-color: white;
@@ -29,6 +29,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 8px;
+    padding-top: 150px;
 }
 
 .gridsquare{
@@ -46,18 +47,32 @@ img{
 .banner{
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 150px;
     background-color: #eee;
 }
 
 
 
-rsvp_div{
-    background-color: #eee;
-    font-size: 10px;
+.rsvp_div{
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+
+
+    border-radius: 25px;
+    border: 2px solid black;
+
 
 }
 
 .divider{
     height: 150px;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
 }

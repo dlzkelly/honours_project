@@ -18,9 +18,10 @@ fetch(url)
 
         subCats = jsonResponse.categories[i].subcategories;
 
-        document.getElementById("categorySection").innerHTML+='<div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;" id=' + divID + ' ">'
+        document.getElementById("categorySection").innerHTML+='<div class="gridsquare" onClick="RunGenerator('+ i + ')" style="font-style: bold; font-size: 10px; padding: 5px;" id=' + divID + ' ">'
          + jsonResponse.categories[i].name
-         + '<button onClick="RunGenerator('+ i + ')"></button> </div>';
+        //  + '<button onClick="RunGenerator('+ i + ')"></button> </div>';
+        + '</div>';
 
         img = document.createElement("img");
         img.src = jsonResponse.categories[i].image.replace(/\/public/, '');
