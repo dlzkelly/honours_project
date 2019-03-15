@@ -18,18 +18,19 @@ fetch(url)
 
         subCats = jsonResponse.categories[i].subcategories;
 
-        document.getElementById("categorySection").innerHTML+='<div class="gridsquare" onClick="RunGenerator('+ i + ')" style="font-style: bold; font-size: 10px; padding: 5px;" id=' + divID + ' ">'
-         + jsonResponse.categories[i].name
-        //  + '<button onClick="RunGenerator('+ i + ')"></button> </div>';
-        + '</div>';
+        document.getElementById("categorySection").innerHTML
+        +='<div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;" id=' + divID + ' ">'
+         + '<a href="localhost:3000/allCategories/' + jsonResponse.categories[i].name + '">' + jsonResponse.categories[i].name + '</a>';
+          + '</div>';
 
         img = document.createElement("img");
         img.src = jsonResponse.categories[i].image.replace(/\/public/, '');
-
+        img.onclick = RunGenerator(i);
         src = document.getElementById(divID);
         src.appendChild(img);
     } 
   });
+
 
 
 

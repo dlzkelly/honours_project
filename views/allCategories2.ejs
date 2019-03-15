@@ -15,7 +15,6 @@
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script type="text/javascript" src="javascripts/RSVPGenerator.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css"></script>
     </head>
 			
     <body>
@@ -34,7 +33,7 @@
 
             <section id="banner-contents">
                 <h1 class="title"> All Categories </h1>
-                <div id="rsvp_div" class="rsvp_div"></div>
+                <div id="rsvp_div" class="rsvp_div"> ... </div>
             </section>
 
           
@@ -47,9 +46,43 @@
 
 
           <section id="categorySection" class="wrapper">
-            
+            <% dataSet.categories.forEach(function(currentCategory){        
+               var nameFormatted = currentCategory.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
+            %>
+              <div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
+                <a href="/allCategories/<%=nameFormatted%>"><%=currentCategory.name%></a>
+                <img src="<%=currentCategory.image.replace(/\/public/, ''); %>" onclick="GenerateRSVP(<%=JSON.stringify(currentCategory)%>)"></img>
+              </div>
+
+              <% }) %>
+
+
           </section>
-          <script src="javascripts/addCategories.js"></script>
+          <script>    
+            var i = 0;
+              var speed = 100;
+             var functionRunning = false;
+
+           function GenerateRSVP(unparsed) {
+            if(functionRunning == false)
+            {
+             functionRunning = true;
+             var currentCategory = unparsed;
+           var text = currentCategory.subcategories;
+            for(var i = 0; i < text.length; i++){
+              setTimeout((word)=>{
+                document.getElementById('rsvp_div').innerHTML = word;
+
+                if(i == text.length)
+                {
+                  functionRunning = false;
+                }
+              }, speed * i, text[i].name);
+            }
+          }
+        }
+          </script>
+
           
 				</main>
 			</body>

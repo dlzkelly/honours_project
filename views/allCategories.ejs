@@ -1,98 +1,89 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <title><%= title %></title>
+	<head>
+      <meta
+      name="viewport"
+      content="
+        width=device-width,
+        initial-scale=1,
+        minimum-scale=1,
+        maximum-scale=1"
+      />
+      <title><%= title %>	</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/stylesheets/allCategories2.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/stylesheets/allCategoriesStyle.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css"></script>
-    <script src="javascripts/RSVPGenerator.js"></script>
-  </head>
-
-  <header>
-    <div  style="text-align: left; vertical-align: top;padding: 10px">
-      <img src="/images/logo.png"  style="width:163.35px;height:67.5px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" > </img>
-  </div>
-</header>
-
-  <body>
-    <main role="main" style="background-color: #eee;">
-
-        <section id="jumbotron" class="jumbotron text-center" style="padding-top: 20px; padding-bottom: 20px;">
-          <div class="container">
-            <h1 class="jumbotron-heading">All Categories</h1>
-          </div>
-        </section>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="javascripts/RSVPGenerator.js"></script>
+    </head>
+			
+    <body>
 
 
-        <section id="cardSection" >
-          <div class="cardLeft">
-            <div class="card">
-             <img src="/images/antiques.jpg" class="card-img-top">
-              <div class="card-body">
-               <p class="card-text">Antiques</p>
-               
-              </div>
-            </div>
-          </div>
-          <div class="cardRight"> 
-            <div class="card">
-              <img src="/images/art.jpg" class="card-img-top">
-              <div class="card-body">
-                <p class="card-text">Art</p>
-                
-              </div>
-            </div>
+				<main role="main">
+
+
+          <div class="banner">
+            <header>
+              <div style="padding: 5px;">
+                <img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
+              </div>      
+            </header>
+
+
+            <section id="banner-contents">
+                <h1 class="title"> All Categories </h1>
+                <div id="rsvp_div" class="rsvp_div"> ... </div>
+            </section>
+
+          
+          
           </div>
 
-        </section>
-        
 
 
-          <section id="cardSection" >
-            <div class="cardLeft">
-              <div class="card">
-               <img src="/images/baby.jpg" class="card-img-top">
-                <div class="card-body">
-                 <p class="card-text">Baby</p>
-                 
-                </div>
+
+
+
+          <section id="categorySection" class="wrapper">
+            <% dataSet.categories.forEach(function(currentCategory){        
+               var nameFormatted = currentCategory.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
+            %>
+              <div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
+                <a href="/allCategories/<%=nameFormatted%>"><%=currentCategory.name%></a>
+                <img src="<%=currentCategory.image.replace(/\/public/, ''); %>" onclick="GenerateRSVP(<%=JSON.stringify(currentCategory)%>)"></img>
               </div>
-            </div>
-            <div class="cardRight"> 
-              <div class="card">
-                <img src="/images/books_comics_magazines.jpg" class="card-img-top">
-                <div class="card-body">
-                  <p class="card-text">Books, Comics & Magazines</p>
-                  
-                </div>
-              </div>
-            </div>
+
+              <% }) %>
 
 
+          </section>
+          <script>    
+            var i = 0;
+              var speed = 100;
+             var functionRunning = false;
 
-            <section id="cardSection" >
-                <div class="cardLeft">
-                  <div class="card">
-                   <img src="/images/business_office_industrial.jpg" class="card-img-top">
-                    <div class="card-body">
-                     <p class="card-text">Business, Office & Industrial</p>
-                     
-                    </div>
-                  </div>
-                </div>
-                <div class="cardRight"> 
-                  <div class="card">
-                    <img src="/images/cameras_photography.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <p class="card-text">Cameras & Photography</p>
-                      
-                    </div>
-                  </div>
-                </div>
-      </main>
-  </body>
-</html>
+           function GenerateRSVP(unparsed) {
+            if(functionRunning == false)
+            {
+             functionRunning = true;
+             var currentCategory = unparsed;
+           var text = currentCategory.subcategories;
+            for(var i = 0; i < text.length; i++){
+              setTimeout((word)=>{
+                document.getElementById('rsvp_div').innerHTML = word;
+
+                if(i == text.length)
+                {
+                  functionRunning = false;
+                }
+              }, speed * i, text[i].name);
+            }
+          }
+        }
+          </script>
+
+          
+				</main>
+			</body>
+		</html>
