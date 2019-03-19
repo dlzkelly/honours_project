@@ -11,7 +11,7 @@
       />
       <title><%= title %>	</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-      <link rel="stylesheet" href="/stylesheets/allCategories2.css">
+      <link rel="stylesheet" href="/stylesheets/categoryStyle.css">
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script type="text/javascript" src="javascripts/RSVPGenerator.js"></script>
@@ -60,27 +60,25 @@
           </section>
           <script>    
             var i = 0;
-              var speed = 100;
-             var functionRunning = false;
+            var speed = 100;
+            var functionRunning = false;
+            var interval;
 
-           function GenerateRSVP(unparsed) {
-            if(functionRunning == false)
-            {
-             functionRunning = true;
-             var currentCategory = unparsed;
-           var text = currentCategory.subcategories;
-            for(var i = 0; i < text.length; i++){
-              setTimeout((word)=>{
-                document.getElementById('rsvp_div').innerHTML = word;
 
-                if(i == text.length)
-                {
-                  functionRunning = false;
-                }
-              }, speed * i, text[i].name);
-            }
-          }
-        }
+            function GenerateRSVP(unparsed) {
+              var currentCategory = unparsed;
+              var text = currentCategory.subcategories;
+              var counter = 0;
+              clearInterval(interval);
+              interval = setInterval(()=>{
+                  if(counter >= text.length-2) {
+                    clearInterval(interval);
+                  }
+                  counter++;
+                  document.getElementById('rsvp_div').innerHTML = text[counter].name;
+                }, speed);
+              }
+            
           </script>
 
           
