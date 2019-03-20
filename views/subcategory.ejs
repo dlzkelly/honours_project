@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="
+  width=device-width,
+  initial-scale=1,
+  minimum-scale=1,
+  maximum-scale=1" />
+    <title>
+        <%= category.name %>
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/subcategoryStyle.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
+
 <body>
+
+    <div class="banner">
+        <header>
+            <div style="padding: 5px;">
+                <img src="/images/logo.png" style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;"></img>
+            </div>
+        </header>
+
+        <section id="banner-contents">
+            <h1 class="title"> <%=category.name%> </h1>
+        </section>
+
+    </div>
     <div>
         <section id="categorySection" class="wrapper">
             <% category.subcategories.forEach(function(subcategory){        
             %>
-                <p><%=subcategory.name%></p>
 
-                <% }) %>
+            <div class="subgridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
+            <a href="/allCategories/<%=category.name%>"><%=subcategory.name%></a>
 
+          </div>
 
-            </section>
+          <% }) %>
+
+        </section>
     </div>
 </body>
+
 </html>

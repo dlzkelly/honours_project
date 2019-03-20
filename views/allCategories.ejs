@@ -65,9 +65,35 @@
             var interval;
             
             function GenerateRSVP(unparsed) {
+              //split all phrases into single words
+              var currentPhrase;
               var currentCategory = unparsed;
               var text = currentCategory.subcategories;
               var counter = 0;
+              var textFormatted;
+              var gapObject = {};
+              gapObject.name = ".";
+
+              // for(var i = 1; i<text.length; i+=2)
+              // {
+              //   //splitting goes here
+              //   text.splice(i, 0, gapObject); 
+
+              // }
+
+              // //attempt to get rid of commas
+              // for(var i = 0; i < text.length; i++)
+              // {
+              //   //get rid of ","
+              //   text[i].name.replace(/&_/, '');
+
+              // }
+
+
+
+
+              // console.log(text);
+
               clearInterval(interval);
               interval = setInterval(()=>{
                   if(counter >= text.length-2) {
@@ -75,6 +101,7 @@
                   }
                   counter++;
                   document.getElementById('rsvp_div').innerHTML = text[counter].name;
+                  // console.log(text[counter].name);
                 }, speed);
               }
             
