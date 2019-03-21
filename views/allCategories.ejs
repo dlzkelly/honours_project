@@ -50,7 +50,7 @@
                var nameFormatted = currentCategory.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
             %>
               <div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
-                <a href="/allCategories/<%=nameFormatted%>"><%=currentCategory.name%></a>
+                <a class="catName" href="/allCategories/<%=nameFormatted%>"><%=currentCategory.name%></a>
                 <img src="<%=currentCategory.image.replace(/\/public/, ''); %>" onclick="GenerateRSVP(<%=JSON.stringify(currentCategory)%>)"></img>
               </div>
 

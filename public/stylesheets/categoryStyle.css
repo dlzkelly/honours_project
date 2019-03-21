@@ -64,3 +64,7 @@ img{
   border-radius: 25px;
   border: 2px solid black;
 }
+
+.catName{
+  font-size: 11px;
+}

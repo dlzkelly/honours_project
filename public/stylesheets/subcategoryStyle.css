@@ -29,7 +29,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 8px;
-    padding-top: 110px;
+    padding-top: 135px;
   }
   
   .subgridsquare{
@@ -64,5 +64,9 @@
     margin: auto;
     border-radius: 25px;
     border: 2px solid black;
+  }
+
+  .subcatName{
+    font-size: 12px;
   }
   
