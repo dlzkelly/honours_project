@@ -21,7 +21,29 @@ router.get('/:category', function(req, res, next) { // https://expressjs.com/en/
 });
 
 router.get('/cameras_photography/telescopes_binoculars', function(req, res, next) {
-    res.render('binoculars');
+    res.render('productBinoculars');
 }); 
+router.get('/computers_tablets_networking/printers_scanners_supplies', function(req, res, next) {
+    res.render('productScanner');
+});
+router.get('/pet_supplies/birds', function(req, res, next) {
+    res.render('productCage');
+});
+router.get('/music/cassettes', function(req, res, next) {
+    res.render('productCassette');
+});
+router.get('/toys_games/jigsaws_puzzles', function(req, res, next) {
+    res.render('productJigsaw');
+});
+router.get('/sporting_goods/scooters', function(req, res, next) {
+    res.render('productScooter');
+});
+router.get('/mobile_phones_communication/smart_watches', function(req, res, next) {
+    res.render('productSmartwatch');
+});
+router.get('/health_beauty/e-cigarettes_vapes_accs', function(req, res, next) {
+    res.render('productVape');
+});
+
 
 module.exports = router;
