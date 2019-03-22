@@ -8,10 +8,9 @@
   minimum-scale=1,
   maximum-scale=1" />
     <title>
-        <%= category.name %>
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/stylesheets/subcategoryStyle.css">
+    <link rel="stylesheet" href="/stylesheets/productStyle.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -28,23 +27,27 @@
 
         <section id="banner-contents">
             <h1 class="title">Sakura Zoom Compact Binoculars - 30 x 60</h1>
+            <hr>
         </section>
 
+        <div class="info">
+
+            <div class="buttonRow">
+                <p class="price">£7.99 </p>
+                <button class="add">Add To Basket</button>
+            </div>
+
+
+            <div class="productRow">
+                <img class="productImage" src="/images/binoculars.jpg">
+                <p class="description">Great value mini binoculars for bird watching, outdoor sports and shows, air shows, trips, hunting, hiking, boating, low-light conditions.</p>
+            </div>
+        </div>
+
     </div>
-    <div>
-        <section id="categorySection" class="wrapper">
-            <% category.subcategories.forEach(function(subcategory){        
-            %>
 
-            <div class="subgridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
-            <a class="subcatName" href="/allCategories/<%=category.name%>"><%=subcategory.name%></a>
 
-          </div>
-
-          <% }) %>
-
-        </section>
-    </div>
+    
 </body>
 
 </html>

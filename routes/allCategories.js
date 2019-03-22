@@ -19,4 +19,9 @@ router.get('/:category', function(req, res, next) { // https://expressjs.com/en/
     console.log(category);
     res.render("subcategory", {category})
 });
+
+router.get('/cameras_photography/telescopes_binoculars', function(req, res, next) {
+    res.render('binoculars');
+}); 
+
 module.exports = router;
