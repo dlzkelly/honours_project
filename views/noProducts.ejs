@@ -26,9 +26,11 @@
 
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item"><a href="/allCategories"><%=category%></a></li>
+s            <% var catFormatted = category.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
+            %>
+          <li class="breadcrumb-item"><a href="/allCategories/<%=catFormatted%>"><%=category%></a></li>
           <li class="breadcrumb-item active" aria-current="page"><%=subcategory%></li>
+
         </ol>
       </nav>
 

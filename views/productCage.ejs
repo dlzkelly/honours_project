@@ -25,11 +25,12 @@
             </div>
         </header>
 
-        <nav aria-label="breadcrumb">
+        <li class="breadcrumb-item"><a href="/allCategories">All Categories</a></li>
+
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item"><a href="/allCategories"><%=category%></a></li>
+          <li class="breadcrumb-item"><a href="/allCategories/<%=category.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '')%>"><%=category%></a></li>
           <li class="breadcrumb-item active" aria-current="page"><%=subcategory%></li>
+
         </ol>
       </nav>
 
