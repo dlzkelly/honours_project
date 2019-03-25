@@ -26,10 +26,9 @@
 
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-s            <% var catFormatted = category.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
-            %>
-          <li class="breadcrumb-item"><a href="/allCategories/<%=catFormatted%>"><%=category%></a></li>
-          <li class="breadcrumb-item active" aria-current="page"><%=subcategory%></li>
+            <li class="breadcrumb-item"><a href="/allCategories">All Categories</a></li>
+          <li class="breadcrumb-item"><a href="/allCategories/<%=category.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '')%>"><%=category.name%></a></li>
+          <li class="breadcrumb-item active" aria-current="page"><%=subcategory.name%></li>
 
         </ol>
       </nav>

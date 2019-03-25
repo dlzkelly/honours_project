@@ -42,12 +42,29 @@ router.get('/sporting_goods/scooters', function(req, res, next) {
 router.get('/mobile_phones_communication/smart_watches', function(req, res, next) {
     res.render('productSmartwatch', {category: "Mobile Phones & Communication", subcategory: "Smart Watches", catFormatted: "", subFormatted: ""});
 });
-router.get('/health_beauty/e_cigarettes_vapes_accs', function(req, res, next) {
-    res.render('productVape', {category: "Health & Beauty", subcategory: "E-Cigarettes & Vapes", catFormatted: "", subFormatted: ""});
+router.get('/health_beauty/e-cigarettes_vapes_accs', function(req, res, next) {
+    res.render('productVape', {category: "Health & Beauty", subcategory: "E-Cigarettes, Vapes & Accs", catFormatted: "", subFormatted: ""});
 });
 
 router.get('/:cat/:sub', function(req, res, next) {
-    res.render('noProducts', {category: req.params.cat , subcategory: req.params.sub});
+    var category = dataSet.categories.find(function(currentCat)
+    {
+        if(currentCat.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '') == req.params.cat)
+        {
+            return true;
+        }   
+    })
+    var subcategory = category.subcategories.find(function(currentSub)
+    {
+        if(currentSub.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '') == req.params.sub)
+        {
+            return true;
+        }   
+    })
+
+    console.log(category);
+    console.log(subcategory);
+    res.render('noProducts', {category, subcategory});
 });
 
 module.exports = router;

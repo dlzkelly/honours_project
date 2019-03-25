@@ -29,7 +29,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 8px;
-    padding-top: 135px;
+    padding-top: 152px;
   }
   
   .subgridsquare{
@@ -54,6 +54,7 @@
   .title{
     text-align: center;
     font-size: 26px;
+    padding-bottom: 10px;
     
   }
   
