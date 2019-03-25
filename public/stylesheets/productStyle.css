@@ -130,3 +130,10 @@
 .productRow{
   padding-right: 2px;
 }
+
+.breadcrumb{
+  margin-bottom: 0;
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  font-size: 11px;
+}

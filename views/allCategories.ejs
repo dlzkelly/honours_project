@@ -24,12 +24,24 @@
 
 
           <div class="banner">
+
+
+
+
             <header>
               <div style="padding: 5px;">
                 <img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
               </div>      
             </header>
 
+
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">All Categories</li>
+              </ol>
+            </nav>
+            
 
             <section id="banner-contents">
                 <h1 class="title"> All Categories </h1>
@@ -60,7 +72,7 @@
           </section>
           <script>    
             var i = 0;
-            var speed = 100;
+            var speed = 150;
             var functionRunning = false;
             var interval;
             
@@ -68,31 +80,19 @@
               //split all phrases into single words
               var currentPhrase;
               var currentCategory = unparsed;
-              var text = currentCategory.subcategories;
+              var text = currentCategory.subcategories.map(current=>current.name);
               var counter = 0;
               var textFormatted;
               var gapObject = {};
               gapObject.name = ".";
 
-              // for(var i = 1; i<text.length; i+=2)
-              // {
-              //   //splitting goes here
-              //   text.splice(i, 0, gapObject); 
-
-              // }
-
-              // //attempt to get rid of commas
-              // for(var i = 0; i < text.length; i++)
-              // {
-              //   //get rid of ","
-              //   text[i].name.replace(/&_/, '');
-
-              // }
+              var joined = text.join(',');
+              text = joined.split(/,|&/);
 
 
 
 
-              // console.log(text);
+              console.log(text);
 
               clearInterval(interval);
               interval = setInterval(()=>{
@@ -100,7 +100,7 @@
                     clearInterval(interval);
                   }
                   counter++;
-                  document.getElementById('rsvp_div').innerHTML = text[counter].name;
+                  document.getElementById('rsvp_div').innerHTML = text[counter];
                   // console.log(text[counter].name);
                 }, speed);
               }

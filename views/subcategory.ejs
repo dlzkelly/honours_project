@@ -26,6 +26,14 @@
             </div>
         </header>
 
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="/allCategories">All Categories</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><%=category.name%></li>
+        </ol>
+      </nav>
+
         <section id="banner-contents">
             <h1 class="title"> <%=category.name%> </h1>
         </section>
@@ -33,11 +41,14 @@
     </div>
     <div>
         <section id="categorySection" class="wrapper">
-            <% category.subcategories.forEach(function(subcategory){        
+            <% category.subcategories.forEach(function(subcategory){    
+                var catFormatted = category.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
+                var subFormatted = subcategory.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
+
             %>
 
             <div class="subgridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
-            <a class="subcatName" href="/allCategories/<%=category.name%>"><%=subcategory.name%></a>
+            <a class="subcatName" href="/allCategories/<%=catFormatted%>/<%-subFormatted%>"><%=subcategory.name%></a>
 
           </div>
 

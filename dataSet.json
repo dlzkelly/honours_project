@@ -17,7 +17,7 @@
                     "name": "Architectural Antiques"
                   },
                   {
-                    "name": "Asian/Oriental Antiques"
+                    "name": "Asian & Oriental Antiques"
                   },
                   {
                     "name": "Carpets & Rugs"
@@ -29,7 +29,7 @@
                     "name": "Ethnographic Antiques"
                   },
                   {
-                    "name": "Fabric/Textiles"
+                    "name": "Fabric & Textiles"
                   },
                   {
                     "name": "Incunabula"
@@ -41,7 +41,7 @@
                     "name": "Maps, Atlases & Globes"
                   },
                   {
-                    "name": "Marine/Maritime"
+                    "name": "Marine & Maritime"
                   },
                   {
                     "name": "Metalware"
@@ -50,7 +50,7 @@
                     "name": "Musical Instruments"
                   },
                   {
-                    "name": "Science/Medicine"
+                    "name": "Science & Medicine"
                   },
                   {
                     "name": "Silver"
@@ -59,7 +59,7 @@
                     "name": "Woodenware"
                   },
                   {
-                    "name": "Periods/Styles"
+                    "name": "Periods & Styles"
                   },
                   {
                     "name": "Reproduction Antiques"
@@ -110,13 +110,13 @@
 			"image": "../public/images/baby.jpg",
 			"subcategories": [
                 {
-                    "name": "Baby Bathing/Grooming"
+                    "name": "Baby Bathing & Grooming"
                   },
                   {
                     "name": "Baby Books"
                   },
                   {
-                    "name": "Baby Carriers/Backpacks"
+                    "name": "Baby Carriers & Backpacks"
                   },
                   {
                     "name": "Baby Changing & Nappies"
@@ -134,7 +134,7 @@
                     "name": "Clothes, Shoes & Accessories"
                   },
                   {
-                    "name": "Maternity/Pregnancy"
+                    "name": "Maternity & Pregnancy"
                   },
                   {
                     "name": "Nursery Bedding"
@@ -215,7 +215,7 @@
                     "name": "Adhesives, Sealants & Tapes"
                   },
                   {
-                    "name": "Agriculture/Farming"
+                    "name": "Agriculture & Farming"
                   },
                   {
                     "name": "Automation, Motors & Drives"
@@ -260,10 +260,10 @@
                     "name": "Material Handling"
                   },
                   {
-                    "name": "Medical/Lab Equipment"
+                    "name": "Medical & Lab Equipment"
                   },
                   {
-                    "name": "Metalworking/Milling/Welding"
+                    "name": "Metalworking & Milling & Welding"
                   },
                   {
                     "name": "Office Equipment & Supplies"
@@ -287,7 +287,7 @@
                     "name": "Video Broadcasting & Recording"
                   },
                   {
-                    "name": "Web Domains/ Email/ Software"
+                    "name": "Web Domains &  Email &  Software"
                   },
                   {
                     "name": "Other Business & Industrial"
@@ -459,16 +459,16 @@
                         "name": "Banknotes"
                       },
                       {
-                        "name": "Bullion/Bars"
+                        "name": "Bullion & Bars"
                       },
                       {
                         "name": "Coins"
                       },
                       {
-                        "name": "Historical Medals/Medallions"
+                        "name": "Historical Medals & Medallions"
                       },
                       {
-                        "name": "Share Certificates/Bonds"
+                        "name": "Share Certificates & Bonds"
                       },
                       {
                         "name": "Tokens"
@@ -730,7 +730,7 @@
                     "name": "Floral Crafts"
                   },
                   {
-                    "name": "Framing/Matting"
+                    "name": "Framing & Matting"
                   },
                   {
                     "name": "Glass Art Supplies"
@@ -1006,13 +1006,13 @@
                     "name": "Train Tickets"
                   },
                   {
-                    "name": "Bus/ Coach Tickets"
+                    "name": "Bus &  Coach Tickets"
                   },
                   {
-                    "name": "Ferries/ Cruises"
+                    "name": "Ferries &  Cruises"
                   },
                   {
-                    "name": "Car Hire/ Car Rental"
+                    "name": "Car Hire &  Car Rental"
                   },
                   {
                     "name": "Other Travel"
@@ -1312,7 +1312,7 @@
                     "name": "Glass"
                   },
                   {
-                    "name": "Porcelain/China"
+                    "name": "Porcelain & China"
                   },
                   {
                     "name": "Pottery"
@@ -1429,7 +1429,7 @@
                     "name": "Canoeing & Kayaking"
                   },
                   {
-                    "name": "Climbing/ Mountaineering"
+                    "name": "Climbing &  Mountaineering"
                   },
                   {
                     "name": "Cricket"
@@ -1906,7 +1906,7 @@
                     "name": "DVDs, Films & TV"
                   },
                   {
-                    "name": "Greeting Cards/Stationery"
+                    "name": "Greeting Cards & Stationery"
                   },
                   {
                     "name": "Health & Beauty"

@@ -53,6 +53,7 @@ img{
 
 .title{
   padding-left: 68px;
+  margin: 0;
 }
 
 .rsvp_div{
@@ -68,3 +69,11 @@ img{
 .catName{
   font-size: 11px;
 }
+
+.breadcrumb{
+  margin-bottom: 0;
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  font-size: 11px;
+}
+
