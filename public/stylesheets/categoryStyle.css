@@ -65,6 +65,7 @@ text-align: center;
   margin: auto;
   border-radius: 25px;
   border: 2px solid black;
+  margin-top: 2px;
 }
 
 .catName{
@@ -78,3 +79,13 @@ text-align: center;
   font-size: 11px;
 }
 
+.rsvp_button{
+  /* float: left;
+  height: 30px;
+  width: 40px;
+  font-size: 9px;
+  text-align: center;
+  margin-left: 10px;
+  padding-left: 2px;
+  padding-right: 2px; */
+}

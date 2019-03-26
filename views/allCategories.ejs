@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-      <meta
+		<meta
       name="viewport"
       content="
         width=device-width,
@@ -9,124 +9,70 @@
         minimum-scale=1,
         maximum-scale=1"
       />
-      <title><%= title %>	</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-      <link rel="stylesheet" href="/stylesheets/categoryStyle.css">
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script type="text/javascript" src="javascripts/RSVPGenerator.js"></script>
-    </head>
-			
-    <body>
-
-
+		<title><%= title %>
+		</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+			<link rel="stylesheet" href="/stylesheets/categoryStyle.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				<script type="text/javascript" src="javascripts/RSVPGenerator.js"></script>
+			</head>
+			<body>
 				<main role="main">
-
-
-          <div class="banner">
-
-
-
-
-            <header>
-
-            <script type="text/javascript">
-                function toggle_visibility(id) {
-                   var e = document.getElementById(id);
-                   if(e.style.display == 'block')
-                      e.style.display = 'none';
-                   else
-                      e.style.display = 'block';
-                }
-          </script>
-
-          <style type="text/css">
-
-            #popupBoxOnePosition{
-              top: 0; left: 0; position: fixed; width: 100%; height: 120%;
-              background-color: rgba(0,0,0,0.7); display: none;
-            }
-            .popupBoxWrapper{
-              width: 550px; margin: 50px auto; text-align: left;
-            }
-            .popupBoxContent{
-              background-color: #FFF; padding: 15px;
-            }
-
-          </style>
-
-
-
-              <div style="padding: 5px;">
-               
-              <img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
-                
-              
-              <a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">
-                <img src="/images/menu.png" style="float: right; height: 27px;width: 27px;margin: 5px">
-              </a>
-                
-              <div id="popupBoxOnePosition">
-                    <div class="popupBoxWrapper">
-                      <div class="popupBoxContent">
-                        <h3 style="margin-top: 0px; margin-bottom: 30px;">Settings</h3>
-                        <p style="font-size: 15px; margin-bottom: 2px;margin-left: 10px;">RSVP Speed</p>
-                          <form style="margin-left: 10px">
-                            <input type="radio" name="speed" value="fast" checked> Fast<br>
-                            <input type="radio" name="speed" selected value="medium"> Medium<br>
-                            <input type="radio" name="speed" value="slow"> Slow
-                          </form>
-                        <a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">Close</a>
-                      </div>
-                    </div>
-                  </div>
-
-                
-                
-                
-                <a href="/allCategories"><img src="/images/home.png" style="float: right; height: 23px; margin-top: 6px; margin-right: 10px;"> 
+					<div class="banner">
+						<header>
+							<div style="padding: 5px;">
+								<img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
+								<a href="/allCategories">
+									<img src="/images/home.png" style="float: right; height: 23px; margin-top: 6px; margin-right: 10px;">
+                  </a>
+                <a class="rsvp_button" onclick="showRSVP()">
+                  <img src="/images/fast.png" style="float: right; height: 23px; margin-top: 6px; margin-right: 10px;">
                 </a>
-                </div>      
-            </header>
+                  <script>
+                    function showRSVP() {
+                      x = document.getElementById("rsvp_div");
+                      if (x.style.display === "block") {
+                        x.style.display = "none";
+                      } else {
+                        x.style.display = "block";
+                      }
+                    }
+                    </script>
 
 
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">All Categories</li>
-              </ol>
-            </nav>
-            
 
-            <section id="banner-contents">
+								</div>
+							</header>
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item active" aria-current="page">All Categories</li>
+								</ol>
+							</nav>
+							<section id="banner-contents">
                 <h1 class="title"> All Categories </h1>
+
+                
                 <div id="rsvp_div" class="rsvp_div"> ... </div>
-            </section>
-
-          
-          
-          </div>
-
-
-
-
-
-
-          <section id="categorySection" class="wrapper">
-            <% dataSet.categories.forEach(function(currentCategory){        
+                <script>
+                var x = document.getElementById("rsvp_div");
+                x.style.display = "none";
+               </script>
+                
+							</section>
+						</div>
+						<section id="categorySection" class="wrapper"><% dataSet.categories.forEach(function(currentCategory){        
                var nameFormatted = currentCategory.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
             %>
-              <div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
-                <a class="catName" href="/allCategories/<%=nameFormatted%>"><%=currentCategory.name%></a>
-                <img src="<%=currentCategory.image.replace(/\/public/, ''); %>" onclick="GenerateRSVP(<%=JSON.stringify(currentCategory)%>)"></img>
-              </div>
-
-              <% }) %>
-
-
-          </section>
-          <script>    
+							<div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
+								<a class="catName" href="/allCategories/<%=nameFormatted%>"><%=currentCategory.name%>
+								</a>
+								<img src="<%=currentCategory.image.replace(/\/public/, ''); %>" onclick="GenerateRSVP(<%=JSON.stringify(currentCategory)%>)">
+								</img>
+							</div><% }) %>
+						</section>
+						<script>    
             var i = 0;
-            var speed = 80;
+            var speed = 110;
             var functionRunning = false;
             var interval;
             
@@ -162,8 +108,6 @@
               }
             
           </script>
-
-          
-				</main>
-			</body>
-		</html>
+					</main>
+				</body>
+			</html>
