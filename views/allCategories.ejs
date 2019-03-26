@@ -1,104 +1,113 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <title><%= title %></title>
+	<head>
+		<meta
+      name="viewport"
+      content="
+        width=device-width,
+        initial-scale=1,
+        minimum-scale=1,
+        maximum-scale=1"
+      />
+		<title><%= title %>
+		</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+			<link rel="stylesheet" href="/stylesheets/categoryStyle.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				<script type="text/javascript" src="javascripts/RSVPGenerator.js"></script>
+			</head>
+			<body>
+				<main role="main">
+					<div class="banner">
+						<header>
+							<div style="padding: 5px;">
+								<img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
+								<a href="/allCategories">
+									<img src="/images/home.png" style="float: right; height: 23px; margin-top: 6px; margin-right: 10px;">
+                  </a>
+                <a class="rsvp_button" onclick="showRSVP()">
+                  <img src="/images/fast.png" style="float: right; height: 23px; margin-top: 6px; margin-right: 10px;">
+                </a>
+                  <script>
+                    function showRSVP() {
+                      x = document.getElementById("rsvp_div");
+                      if (x.style.display === "block") {
+                        x.style.display = "none";
+                      } else {
+                        x.style.display = "block";
+                      }
+                    }
+                    </script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/stylesheets/allCategoriesStyle.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="javascripts/RSVPGenerator.js"></script>
-  </head>
-
-  <header>
-    <div  style="text-align: left; vertical-align: top;padding: 10px">
-      <img src="/images/logo.png"  style="width:163.35px;height:67.5px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" > </img>
-  </div>
-</header>
-
-  <body>
-    <main role="main" style="background-color: #eee;">
-
-        <section id="jumbotron" class="jumbotron text-center" style="padding-top: 20px; padding-bottom: 20px;">
-          <div class="container">
-            <h1 class="jumbotron-heading">All Categories</h1>
-          </div>
-        </section>
 
 
-        <section id="cardSection" >
-          <div class="cardLeft">
-            <div class="card">
-             <img src="/images/antiques.jpg" class="card-img-top">
-              <div class="card-body">
-               <p class="card-text">Antiques</p>
-               
-              </div>
-            </div>
-          </div>
-          <div class="cardRight"> 
-            <div class="card">
-              <img src="/images/art.jpg" class="card-img-top">
-              <div class="card-body">
-                <p class="card-text">Art</p>
+								</div>
+							</header>
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item active" aria-current="page">All Categories</li>
+								</ol>
+							</nav>
+							<section id="banner-contents">
+                <h1 class="title"> All Categories </h1>
+
                 
-              </div>
-            </div>
-          </div>
+                <div id="rsvp_div" class="rsvp_div"> ... </div>
+                <script>
+                var x = document.getElementById("rsvp_div");
+                x.style.display = "none";
+               </script>
+                
+							</section>
+						</div>
+						<section id="categorySection" class="wrapper"><% dataSet.categories.forEach(function(currentCategory){        
+               var nameFormatted = currentCategory.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '');
+            %>
+							<div class="gridsquare" style="font-style: bold; font-size: 10px; padding: 5px;">
+								<a class="catName" href="/allCategories/<%=nameFormatted%>"><%=currentCategory.name%>
+								</a>
+								<img src="<%=currentCategory.image.replace(/\/public/, ''); %>" onclick="GenerateRSVP(<%=JSON.stringify(currentCategory)%>)">
+								</img>
+							</div><% }) %>
+						</section>
+						<script>    
+            var i = 0;
+            var speed = 110;
+            var functionRunning = false;
+            var interval;
+            
+            function GenerateRSVP(unparsed) {
+              //split all phrases into single words
+              var currentPhrase;
+              var currentCategory = unparsed;
+              var text = currentCategory.subcategories.map(current=>current.name);
+              var counter = 0;
+              var textFormatted;
+              var gapObject = {};
+              gapObject.name = ".";
 
-        </section>
-        
+              var joined = text.join(',');
+              text = joined.split(/,|&/);
+              var joined2 = text.join(' ');
+              text = joined2.split(" ");
+              var array = text;
+              var filtered = array.filter(function (el) {
+                return el != "";
+              });
+              text = filtered;
 
-
-          <section id="cardSection" >
-            <div class="cardLeft">
-              <div class="card">
-               <img src="/images/baby.jpg" class="card-img-top">
-                <div class="card-body">
-                 <p class="card-text">Baby</p>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="cardRight"> 
-              <div class="card">
-                <img src="/images/books_comics_magazines.jpg" class="card-img-top">
-                <div class="card-body">
-                  <p class="card-text">Books, Comics & Magazines</p>
-                  
-                </div>
-              </div>
-            </div>
-
-
-
-            <section id="cardSection" >
-                <div class="cardLeft">
-                  <div class="card">
-                   <img src="/images/business_office_industrial.jpg" class="card-img-top">
-                    <div class="card-body">
-                     <p class="card-text">Business, Office & Industrial</p>
-                     
-                    </div>
-                  </div>
-                </div>
-                <div class="cardRight"> 
-                  <div class="card">
-                    <img src="/images/cameras_photography.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <p class="card-text">Cameras & Photography</p>
-                      
-                    </div>
-                  </div>
-                </div>
-  
-
-
-        
-
-        
-      </main>
-  </body>
-</html>
+              clearInterval(interval);
+              interval = setInterval(()=>{
+                  if(counter >= text.length-2) {
+                    clearInterval(interval);
+                  }
+                  counter++;
+                  document.getElementById('rsvp_div').innerHTML = text[counter];
+                  // console.log(text[counter].name);
+                }, speed);
+              }
+            
+          </script>
+					</main>
+				</body>
+			</html>

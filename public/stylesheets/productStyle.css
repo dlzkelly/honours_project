@@ -1,0 +1,139 @@
+.text-center{
+    padding-top: 0.05px; 
+    padding-bottom: 10px;
+    background-color: #eee;
+  }
+  
+  /* .allCatText  {
+    font-size: 20px; 
+    position: fixed;
+    background-color: #eee;  
+    text-align: center;
+    
+  } */
+  
+  header{
+    background-color: white;
+  }
+  
+  body{
+    background-color: #eee;
+  }
+  
+  .grid-container{
+    padding: 2px;
+  }
+  
+  
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8px;
+    padding-top: 132px;
+  }
+  
+  .subgridsquare{
+  
+    background-color: white;   
+     padding-bottom: 50px;
+     width: 100%;
+  }
+  
+  img{
+    height: 165px;
+    width: 50%;
+  }
+  
+  
+  .banner{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    padding-bottom: 28px;
+  }
+  
+  .title{
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  
+  .rsvp_div{
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid black;
+  }
+
+  .info{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  hr { 
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.productImage{
+    float: left;  
+    border:1px solid #021a40;
+}
+
+.price{
+    float: left;
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-weight: bold;
+
+}
+
+.description{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 12px;
+
+}
+
+.add{
+    float: right;
+    height: 40px;
+    width: 100px;
+    font-size: 12px;
+    background-color: rgb(47, 153, 253);
+    border-radius: 8px;
+    border: 2px solid rgb(43, 92, 255);
+    font-weight: bold;
+
+}
+
+.buttonRow{
+}
+
+.productRow{
+  padding-right: 2px;
+}
+
+.breadcrumb{
+  margin-bottom: 0;
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  font-size: 11px;
+}

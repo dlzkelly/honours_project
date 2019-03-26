@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="
+  width=device-width,
+  initial-scale=1,
+  minimum-scale=1,
+  maximum-scale=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/productStyle.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="banner">
+        <header>
+            <div style="padding: 5px;">
+                <img src="/images/logo.png" style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;"></img>
+            </div>
+        </header>
+
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/allCategories">All Categories</a></li>
+          <li class="breadcrumb-item"><a href="/allCategories/<%=category.name.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '')%>"><%=category.name%></a></li>
+          <li class="breadcrumb-item active" aria-current="page"><%=subcategory.name%></li>
+
+        </ol>
+      </nav>
+
+        <section id="banner-contents">
+            <h1 class="title">No Products Available</h1>
+
+            <hr>
+        </section>
+
+        <div class="info">
+
+            <div class="buttonRow">
+            <button class="add"  style="float: left;"><a style="color: black;" href="/allCategories">Return Home</button>
+
+            </div>
+
+
+            <div class="productRow">
+                <p class="price"> </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+</body>
+
+</html>

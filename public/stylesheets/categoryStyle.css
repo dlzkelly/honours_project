@@ -1,58 +1,91 @@
-/* .cardLeft {
-
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 540px;
-  width: 460px;
-  background-color: rgb(168, 193, 236);
-  float: left;
-
-
+.text-center{
+  padding-top: 0.05px; 
+  padding-bottom: 10px;
+  background-color: #eee;
 }
 
-.cardRight {
-  float: right;
-  height: 540px;
-  padding-left: 20px;
-  padding-right: 322px;
-  background-color: rgb(168, 193, 236);
-
-}
-
-.card {
-  width: 12rem; 
-  padding-top: 30px;
-   
-
-}
-
-.card-img-top {
-  height:420px; 
-  width:420px;
-}
-
-.card-text {
-  font-weight: bold;
-  font-size: 30px;
-  padding-left: 10px;
-  width: 420px;
-}
-
-body {
-  background-color: rgb(93, 129, 191);
-}
-
-header {
-  background-color: white;
+/* .allCatText  {
+  font-size: 20px; 
+  position: fixed;
+  background-color: #eee;  
+  text-align: center;
+  
 } */
 
-.card {
+header{
+  background-color: white;
+}
 
-  font-size: 40px;
-  /* width: 800px; */
-  padding: 10px;
+body{
+  background-color: #eee;
+}
 
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 5px;
+.grid-container{
+  padding: 2px;
+}
 
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+  padding-top: 150px;
+}
+
+.gridsquare{
+
+  background-color: white;   
+   padding-bottom: 50px;
+   width: 100%;
+}
+
+img{
+  height: 192px;
+}
+
+
+.banner{
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  background-color: #eee;
+}
+
+.title{
+text-align: center;
+    margin: 0;
+  padding-bottom: 5px;
+}
+
+.rsvp_div{
+  background-color: white;
+  font-size: 15px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  border-radius: 25px;
+  border: 2px solid black;
+  margin-top: 2px;
+}
+
+.catName{
+  font-size: 12px;
+}
+
+.breadcrumb{
+  margin-bottom: 0;
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  font-size: 11px;
+}
+
+.rsvp_button{
+  /* float: left;
+  height: 30px;
+  width: 40px;
+  font-size: 9px;
+  text-align: center;
+  margin-left: 10px;
+  padding-left: 2px;
+  padding-right: 2px; */
 }
