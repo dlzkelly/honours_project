@@ -19,20 +19,28 @@
 <body>
 
     <div class="banner">
-        <header>
-            <div style="padding: 5px;">
-                <img src="/images/logo.png" style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;"></img>
-            </div>
-        </header>
+    <header>
+    <div style="padding: 5px;">
+        <img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
+        <a href="/allCategories">
+        <img src="/images/home.png" style="width: 28px;float: right; height: 23px; margin-top: 6px; margin-right: 10px;">
+        </a>
 
-        <li class="breadcrumb-item"><a href="/allCategories">All Categories</a></li>
 
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/allCategories/<%=category.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '')%>"><%=category%></a></li>
-          <li class="breadcrumb-item active" aria-current="page"><%=subcategory%></li>
 
-        </ol>
-      </nav>
+
+        </div>
+    </header>
+
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/allCategories">All Categories</a></li>
+
+      <li class="breadcrumb-item"><a href="/allCategories/<%=category.split(' ').join('_').replace(/,/g, '').toLowerCase().replace(/&_/, '')%>"><%=category%></a></li>
+      <li class="breadcrumb-item active" aria-current="page"><%=subcategory%></li>
+
+    </ol>
+  </nav>
 
         <section id="banner-contents">
             <h1 class="title">Wido Large Black Metal Bird Cage</h1>
