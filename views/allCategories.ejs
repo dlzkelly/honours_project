@@ -87,10 +87,13 @@
 
               var joined = text.join(',');
               text = joined.split(/,|&/);
-
-
-
-
+              var joined2 = text.join(' ');
+              text = joined2.split(" ");
+              var array = text;
+              var filtered = array.filter(function (el) {
+                return el != "";
+              });
+              text = filtered;
 
               clearInterval(interval);
               interval = setInterval(()=>{
