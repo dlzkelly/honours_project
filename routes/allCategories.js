@@ -20,7 +20,6 @@ router.get('/:category', function(req, res, next) { // https://expressjs.com/en/
     res.render("subcategory", {category})
 });
 
-//NEED TO PASS IN FRANKENSTEIN PAGE NAME SO THAT THE BREADRUMB CAN LINK TO THE PRODUCT'S SUBCATEGORY
 router.get('/cameras_photography/telescopes_binoculars', function(req, res, next) {
     res.render('productBinoculars', {category: "Cameras & Photography", subcategory: "Telescopes & Binocolulars", catFormatted: "", subFormatted: ""});
 }); 

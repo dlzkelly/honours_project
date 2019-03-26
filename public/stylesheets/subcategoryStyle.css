@@ -30,6 +30,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 8px;
     padding-top: 152px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   
   .subgridsquare{
@@ -37,6 +39,7 @@
     background-color: white;   
      padding-bottom: 50px;
      width: 100%;
+
   }
   
   img{

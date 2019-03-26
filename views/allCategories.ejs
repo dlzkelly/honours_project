@@ -29,9 +29,60 @@
 
 
             <header>
+
+            <script type="text/javascript">
+                function toggle_visibility(id) {
+                   var e = document.getElementById(id);
+                   if(e.style.display == 'block')
+                      e.style.display = 'none';
+                   else
+                      e.style.display = 'block';
+                }
+          </script>
+
+          <style type="text/css">
+
+            #popupBoxOnePosition{
+              top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+              background-color: rgba(0,0,0,0.7); display: none;
+            }
+            .popupBoxWrapper{
+              width: 550px; margin: 50px auto; text-align: left;
+            }
+            .popupBoxContent{
+              background-color: #FFF; padding: 15px;
+            }
+
+          </style>
+
+
+
               <div style="padding: 5px;">
-                <img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
-              </div>      
+               
+              <img src="/images/logo.png"  style="width:81.675px;height:33.75px;display: inline-blocks;white-space: nowrap; text-indent: -9999px; overflow: hidden;" ></img>
+                
+              
+              <a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">
+                <img src="/images/menu.png" style="float: right; height: 27px;width: 27px;margin: 5px">
+              </a>
+                
+              <div id="popupBoxOnePosition">
+                    <div class="popupBoxWrapper">
+                      <div class="popupBoxContent">
+                        <h3>Settings</h3>
+                        <p>RSVP Speed.</p>
+                        <p>(A speed of 80 is very fast, and 150 is very slow)</p>
+                        <a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">Close</a>
+                      </div>
+                    </div>
+                  </div>
+
+                
+                
+                
+                <a href="/allCategories"><img src="/images/home.png" style="float: right; height: 23px; margin-top: 6px; margin-right: 10px;"> 
+                </a>
+                </div>      
             </header>
 
 
@@ -71,7 +122,7 @@
           </section>
           <script>    
             var i = 0;
-            var speed = 150;
+            var speed = 80;
             var functionRunning = false;
             var interval;
             
