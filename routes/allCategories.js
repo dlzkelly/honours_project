@@ -26,8 +26,8 @@ router.get('/cameras_photography/telescopes_binoculars', function(req, res, next
 router.get('/computers_tablets_networking/printers_scanners_supplies', function(req, res, next) {
     res.render('productScanner', {category: "Computers, Tablets & Networking", subcategory: "Printers, Scanners & Supplies", catFormatted: "", subFormatted: ""});
 });
-router.get('/pet_supplies/birds', function(req, res, next) {
-    res.render('productCage' , {category: "Pet Supplies", subcategory: "Birds", catFormatted: "", subFormatted: ""});
+router.get('/pet_supplies/bird_cages', function(req, res, next) {
+    res.render('productCage' , {category: "Pet Supplies", subcategory: "Bird Cages", catFormatted: "", subFormatted: ""});
 });
 router.get('/music/cassettes', function(req, res, next) {
     res.render('productCassette', {category: "Music", subcategory: "Cassettes", catFormatted: "", subFormatted: ""});
